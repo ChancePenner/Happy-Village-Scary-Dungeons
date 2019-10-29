@@ -58,6 +58,9 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerMovementV2.cs" />
+     <None Include="Assets\MiniTileset-Dungeon\Thank You!.txt" />
+     <None Include="Assets\v1.1 dungeon crawler 16x16 pixel pack\tiles\wall\obs.txt" />
+     <None Include="Assets\generic-rpg-pack_v0.3_(alpha-release)_vacaroxa\release.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/ChancePenner/Desktop/Project3/Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

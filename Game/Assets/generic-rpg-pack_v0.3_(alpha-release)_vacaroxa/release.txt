@@ -1,0 +1,21 @@
+ESTÚDIO VACA ROXA
+
+Ajude a iniciativa Vaca Roxa:
+https://apoia.se/vacaroxa
+https://patreon.com/bakudas
+
+Social:
+https://twitter.com/bakudas
+https://twitter.com/estudiovacaroxa/
+https://www.fb.com/estudiovacaroxa
+https://www.youtube.com/estudiovacaroxa
+
+Artwork by Bakudas and Gabe Fern 
+Versão ALPHA release v0.3
+
+License:
+The resources can be used in free and commercial games, videos, and other forms of media.
+You may freely edit the resources for your own purposes, including using modified versions in games, videos, etc.
+Credit is optional but appreciated and recommended.
+You may NOT redistribute the resources themselves, or derivatives thereof - neither for free, paid or otherwise.
+You may NOT transfer this license, or issue sub-licenses for the usage of the resources (or derivatives thereof) by third parties.
