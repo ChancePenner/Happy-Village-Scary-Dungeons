@@ -18,6 +18,7 @@
           <e p="PlayerMovementV2.cs" t="Include" />
           <e p="UpdateLayer.cs" t="Include" />
         </e>
+        <e p="UpdateLayerTilemap.cs" t="Include" />
         <e p="v1.1 dungeon crawler 16x16 pixel pack" t="Include">
           <e p="tiles" t="Include">
             <e p="wall" t="Include">
