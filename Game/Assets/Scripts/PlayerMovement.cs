@@ -8,11 +8,17 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D myRigidbody;
     private Vector3 change;
     private Animator animator;
+    private SpriteRenderer playerLayer;
+
+   // private SpriteRenderer renderer = GetComponent<SpriteRenderer>();
+
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
+        playerLayer = GetComponent<SpriteRenderer>();
+
     }
 
     // Update is called once per frame
@@ -22,7 +28,17 @@ public class PlayerMovement : MonoBehaviour
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
         UpdateAnimationAndMove();
-       
+        
+        // for checking collision with other objects
+
+        if(GameObject.Find("Chest").transform.position.y > gameObject.transform.position.y)
+        { 
+            playerLayer.sortingOrder = 3;
+        }
+        else
+        {
+            playerLayer.sortingOrder = 1;
+        }
     }
 
     void UpdateAnimationAndMove()
