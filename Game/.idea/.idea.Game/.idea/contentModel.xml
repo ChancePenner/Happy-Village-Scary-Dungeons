@@ -7,6 +7,7 @@
         <e p="generic-rpg-pack_v0.3_(alpha-release)_vacaroxa" t="Include">
           <e p="release.txt" t="Include" />
         </e>
+        <e p="inventory.cs" t="Include" />
         <e p="MiniTileset-Dungeon" t="Include">
           <e p="Thank You!.txt" t="Include" />
         </e>
@@ -15,6 +16,7 @@
           <e p="CameraMovement.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PlayerMovementV2.cs" t="Include" />
+          <e p="UpdateLayer.cs" t="Include" />
         </e>
         <e p="v1.1 dungeon crawler 16x16 pixel pack" t="Include">
           <e p="tiles" t="Include">

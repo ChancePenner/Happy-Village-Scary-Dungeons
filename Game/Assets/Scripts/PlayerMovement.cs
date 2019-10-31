@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D myRigidbody;
     private Vector3 change;
     private Animator animator;
-    private SpriteRenderer playerLayer;
+    //private SpriteRenderer objectLayer;
 
    // private SpriteRenderer renderer = GetComponent<SpriteRenderer>();
 
@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
-        playerLayer = GetComponent<SpriteRenderer>();
+        //objectLayer = GetComponent<SpriteRenderer>();
 
     }
 
@@ -31,14 +31,14 @@ public class PlayerMovement : MonoBehaviour
         
         // for checking collision with other objects
 
-        if(GameObject.Find("Chest").transform.position.y > gameObject.transform.position.y)
-        { 
-            playerLayer.sortingOrder = 3;
-        }
-        else
-        {
-            playerLayer.sortingOrder = 1;
-        }
+        //if(GameObject.Find("Player").transform.position.y > gameObject.transform.position.y)
+        //{ 
+        //    objectLayer.sortingOrder = 3;
+        //}
+        //else
+        //{
+        //   objectLayer.sortingOrder = 1;
+        //}
     }
 
     void UpdateAnimationAndMove()

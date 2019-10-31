@@ -56,10 +56,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\inventory.cs" />
      <Compile Include="Assets\openChest.cs" />
      <Compile Include="Assets\Scripts\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerMovementV2.cs" />
+     <Compile Include="Assets\Scripts\UpdateLayer.cs" />
      <None Include="Assets\MiniTileset-Dungeon\Thank You!.txt" />
      <None Include="Assets\v1.1 dungeon crawler 16x16 pixel pack\tiles\wall\obs.txt" />
      <None Include="Assets\generic-rpg-pack_v0.3_(alpha-release)_vacaroxa\release.txt" />
