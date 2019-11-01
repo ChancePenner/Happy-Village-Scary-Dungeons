@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Chest
+  - Enemy1
+  - swordHitbox
   layers:
   - Default
   - TransparentFX

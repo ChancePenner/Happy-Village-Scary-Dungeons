@@ -30,7 +30,6 @@ public class openChest : MonoBehaviour
         {
             chestOpen = true;
             anim.SetBool("isOpened", true);
-            Debug.Log("Hit trigger!");
         }
     }
 

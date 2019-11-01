@@ -16,7 +16,6 @@ public class UpdateLayerTilemap : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(gameObject.transform.position.y);
         if(GameObject.Find("Player").transform.position.y > gameObject.transform.position.y)
         {
             objectLayer.sortingOrder = 1;

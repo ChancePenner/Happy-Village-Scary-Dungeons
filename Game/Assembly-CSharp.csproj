@@ -56,6 +56,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\enemyHealth.cs" />
      <Compile Include="Assets\inventory.cs" />
      <Compile Include="Assets\openChest.cs" />
      <Compile Include="Assets\Scripts\CameraMovement.cs" />

@@ -4,6 +4,7 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="enemyHealth.cs" t="Include" />
         <e p="generic-rpg-pack_v0.3_(alpha-release)_vacaroxa" t="Include">
           <e p="release.txt" t="Include" />
         </e>
@@ -17,8 +18,8 @@
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PlayerMovementV2.cs" t="Include" />
           <e p="UpdateLayer.cs" t="Include" />
+          <e p="UpdateLayerTilemap.cs" t="Include" />
         </e>
-        <e p="UpdateLayerTilemap.cs" t="Include" />
         <e p="v1.1 dungeon crawler 16x16 pixel pack" t="Include">
           <e p="tiles" t="Include">
             <e p="wall" t="Include">
