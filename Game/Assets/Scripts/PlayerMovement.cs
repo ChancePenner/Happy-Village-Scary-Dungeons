@@ -26,7 +26,10 @@ public class PlayerMovement : MonoBehaviour
         currentState = PlayerState.walk;
         animator = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
-        //objectLayer = GetComponent<SpriteRenderer>();
+        animator.SetFloat("Horizontal", 0);    //fixes idleDown attack activating all sword collisions 
+        animator.SetFloat("Vertical", -1);     //these initialize idle down to 0,-1 since we are facing downward
+                                                            //setting animator values of idle down of player 
+        //objectLayer = GetComponent<SpriteRenderer>();        
 
     }
 
