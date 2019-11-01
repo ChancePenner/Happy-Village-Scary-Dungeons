@@ -56,10 +56,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\enemyHealth.cs" />
-     <Compile Include="Assets\inventory.cs" />
-     <Compile Include="Assets\openChest.cs" />
      <Compile Include="Assets\Scripts\CameraMovement.cs" />
+     <Compile Include="Assets\Scripts\enemyHealth.cs" />
+     <Compile Include="Assets\Scripts\inventory.cs" />
+     <Compile Include="Assets\Scripts\openChest.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerMovementV2.cs" />
      <Compile Include="Assets\Scripts\UpdateLayer.cs" />
