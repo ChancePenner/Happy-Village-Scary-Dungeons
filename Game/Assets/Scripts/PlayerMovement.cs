@@ -2,8 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum PlayerState
+{
+    walk,
+    attack,
+    interact
+}
+
 public class PlayerMovement : MonoBehaviour
 {
+    public PlayerState currentState;
     public float speed;
     private Rigidbody2D myRigidbody;
     private Vector3 change;
@@ -15,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        currentState = PlayerState.walk;
         animator = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
         //objectLayer = GetComponent<SpriteRenderer>();
@@ -27,18 +36,25 @@ public class PlayerMovement : MonoBehaviour
         change = Vector3.zero;
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
-        UpdateAnimationAndMove();
-        
-        // for checking collision with other objects
-
-        //if(GameObject.Find("Player").transform.position.y > gameObject.transform.position.y)
-        //{ 
-        //    objectLayer.sortingOrder = 3;
-        //}
-        //else
-        //{
-        //   objectLayer.sortingOrder = 1;
-        //}
+        if (Input.GetButtonDown("attack") && currentState != PlayerState.attack)
+        {
+            StartCoroutine(AttackCo());    
+        }
+        if (currentState == PlayerState.walk)
+        {
+            UpdateAnimationAndMove();
+        }
+        //UpdateAnimationAndMove();
+    }
+    
+    private IEnumerator AttackCo()        //runs in parallel to something
+    {
+        animator.SetBool("attacking", true);      //setting animation bool to true
+        currentState = PlayerState.attack;
+        yield return null;                                    //waits 1 frame
+        animator.SetBool("attacking", false);
+        yield return new WaitForSeconds(.3f);                 //waits .3 seconds 
+        currentState = PlayerState.walk;
     }
 
     void UpdateAnimationAndMove()
@@ -58,6 +74,7 @@ public class PlayerMovement : MonoBehaviour
 
     void MoveCharacter()
     {
+        change.Normalize();
         myRigidbody.MovePosition(
              transform.position + (Time.deltaTime * speed * change)
             );
