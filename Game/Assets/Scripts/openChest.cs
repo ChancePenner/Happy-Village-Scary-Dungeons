@@ -10,6 +10,8 @@ public class openChest : MonoBehaviour
     public GameObject[] objects;
     public GameObject Enemy;
     private bool chestOpen;
+    private GameObject Item;        //choosing which item the enemy
+    private Collider2D  Player;
     private Animator anim; 
     
     // Start is called before the first frame update
@@ -24,25 +26,35 @@ public class openChest : MonoBehaviour
     {
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other)
     {
-        if(other.gameObject.CompareTag(tagName) && !chestOpen)
+        if(other.gameObject.CompareTag(tagName) && Input.GetKeyDown("space") && !chestOpen)
         {
-           
             anim.SetBool("isOpened", true);
             chestIsOpen();
+            Player = other;
         }
     }
 
     private void chestIsOpen()
     {
-        Debug.Log("chest getting called!");
         chestOpen = true;
+      
     }
 
     private void spawnEnemy()
-    {
+    { 
+        if (Player != null)
+        {
+            Player.GetComponent<inventory>().giveSword();
+        }
         Instantiate(Enemy);
+    }
+
+    private void giveItem()
+    {
+        
+       // Instantiate(Item);
     }
     
 
