@@ -23,5 +23,8 @@ public class inventory : MonoBehaviour
         }
     }
 
-   
- }
+    public bool ActiveSword()
+    {
+        return hasSword;
+    }
+}

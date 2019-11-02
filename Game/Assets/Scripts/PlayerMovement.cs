@@ -14,8 +14,10 @@ public class PlayerMovement : MonoBehaviour
     public PlayerState currentState;
     public float speed;
     private Rigidbody2D myRigidbody;
+    //private GameObject Player;
     private Vector3 change;
     private Animator animator;
+    
     //private SpriteRenderer objectLayer;
 
    // private SpriteRenderer renderer = GetComponent<SpriteRenderer>();
@@ -24,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         currentState = PlayerState.walk;
+        //Player = gameObject;
         animator = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
         animator.SetFloat("Horizontal", 0);    //fixes idleDown attack activating all sword collisions 
@@ -39,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
         change = Vector3.zero;
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
-        if (Input.GetButtonDown("attack") && currentState != PlayerState.attack)
+        if (Input.GetButtonDown("attack") && currentState != PlayerState.attack && gameObject.GetComponent<inventory>().ActiveSword())
         {
             StartCoroutine(AttackCo());    
         }
