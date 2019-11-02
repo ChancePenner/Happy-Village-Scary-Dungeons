@@ -28,3 +28,5 @@ public class inventory : MonoBehaviour
         return hasSword;
     }
 }
+
+
