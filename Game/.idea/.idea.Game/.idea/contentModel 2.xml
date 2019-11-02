@@ -18,7 +18,6 @@
           <e p="openChest.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PlayerMovementV2.cs" t="Include" />
-          <e p="Transition.cs" t="Include" />
           <e p="UpdateLayer.cs" t="Include" />
           <e p="UpdateLayerTilemap.cs" t="Include" />
         </e>
