@@ -1,0 +1,57 @@
+Meeting 0:
+Location: Eaton Hall Lawr2
+10/25/2019 @ 11:30AM to 11:50AM
+All in attendance
+Agenda:
+*Decided what are we going to make and which platform to use
+*Research Unity Totorial
+
+Meeting 1:
+Location: Leep2 1326
+10/30/2019 @ 9:00 to 10:50
+Chance, Haonan, Thomas, Sarah
+Agenda:
+*Unity Totorial for everyone
+*Mess around with assets
+*Created first dungeon scene
+
+Meeting 2:
+Location: Leep2 Ground floor
+10/30/2019 @ 16:30 to 17:30
+Chance, Haonan
+Agenda:
+*Gantt chart for the first week
+
+Meeting 3:
+Location: Leep2 Ground floor
+10/30/2019 @ 17:30 to 18:30
+Chance, Haonan, Thomas
+Agenda:
+*Finish Gantt chart for the first week
+*Plan for the project goal(1 Totorial dungeon with three rooms)
+
+Meeting 4:
+Location: Leep2 Ground floor
+10/30/2019 @ 18:30 to 22:00
+Chance, Thomas
+Agenda:
+*Implement player open chest and animation
+*Wall collision
+*Fix layout bug
+
+Meeting 5:
+Location: Leep2 Ground floor
+11/1/2019 @ 9:00 to 10:50
+Chance, Thomas
+Agenda:
+*Attack animation
+*Attack Hitbox
+
+Meeting 6:
+Location: Leep2 1324
+11/1/2019 @ 16:00 to 18:00
+Chance, Thomas, Haonan
+Agenda:
+*Mob death animation
+*More specified Gantt chart for project3
+*
