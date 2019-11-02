@@ -9,6 +9,7 @@ public class Transition : MonoBehaviour
     public string loadScene;
     public Vector2 playerLocation;
     public objectVector playerTemp;
+    public bool isOpen;
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && !other.isTrigger)

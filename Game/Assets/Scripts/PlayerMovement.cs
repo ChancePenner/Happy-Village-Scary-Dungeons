@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.PlayerLoop;
 
 public enum PlayerState
 {
@@ -17,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
     //private GameObject Player;
     private Vector3 change;
     private Animator animator;
+
+    public objectVector startPosition;
     
     //private SpriteRenderer objectLayer;
 
@@ -33,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Vertical", -1);     //these initialize idle down to 0,-1 since we are facing downward
                                                             //setting animator values of idle down of player 
         //objectLayer = GetComponent<SpriteRenderer>();        
-
+        transform.position = startPosition.initial;
     }
 
     // Update is called once per frame

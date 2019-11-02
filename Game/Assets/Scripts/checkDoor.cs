@@ -9,6 +9,8 @@ public class checkDoor : MonoBehaviour
     private GameObject[] enemies;
     private bool enemySpawned;
     private Animator animator;
+    public GameObject player;
+    public GameObject door;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +35,7 @@ public class checkDoor : MonoBehaviour
             if (enemies.Length == 0)        //at this point all enemies are dead
             {
                 animator.SetBool("allEnemiesDead",true);
+                Physics2D.IgnoreCollision(player.GetComponent<Collider2D>(), door.GetComponent<Collider2D>());
             }
         }
     }
