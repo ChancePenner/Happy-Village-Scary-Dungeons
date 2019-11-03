@@ -15,11 +15,12 @@ public class Transition : MonoBehaviour
     {
         if (other.CompareTag("Player") && !other.isTrigger)
         {
+            Debug.Log("TRANSITIONING!");
             playerSave = new saveData();
             playerSave.playerData();
             playerTemp.initial = playerLocation;
             SceneManager.LoadScene(loadScene);
-//            SceneManager.SetActiveScene(SceneManager.GetSceneByName(loadScene));
+//          SceneManager.SetActiveScene(SceneManager.GetSceneByName(loadScene));
             playerSave.moveInventory();
         }
     }
