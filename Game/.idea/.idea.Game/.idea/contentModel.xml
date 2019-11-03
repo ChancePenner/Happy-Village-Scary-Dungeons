@@ -4,6 +4,7 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="ApplicationData.cs" t="Include" />
         <e p="generic-rpg-pack_v0.3_(alpha-release)_vacaroxa" t="Include">
           <e p="release.txt" t="Include" />
         </e>
@@ -15,11 +16,13 @@
           <e p="checkDoor.cs" t="Include" />
           <e p="enemyHealth.cs" t="Include" />
           <e p="EnemyMovement.cs" t="Include" />
+          <e p="GlobalControl.cs" t="Include" />
           <e p="inventory.cs" t="Include" />
           <e p="objectVector.cs" t="Include" />
           <e p="openChest.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PlayerMovementV2.cs" t="Include" />
+          <e p="saveData.cs" t="Include" />
           <e p="Transition.cs" t="Include" />
           <e p="UpdateLayer.cs" t="Include" />
           <e p="UpdateLayerTilemap.cs" t="Include" />

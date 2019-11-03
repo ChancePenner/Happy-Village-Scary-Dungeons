@@ -9,13 +9,18 @@ public class Transition : MonoBehaviour
     public string loadScene;
     public Vector2 playerLocation;
     public objectVector playerTemp;
-    public bool isOpen;
+    public GameObject player;
+    public saveData playerSave;
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && !other.isTrigger)
         {
+            playerSave = new saveData();
+            playerSave.playerData();
             playerTemp.initial = playerLocation;
             SceneManager.LoadScene(loadScene);
+//            SceneManager.SetActiveScene(SceneManager.GetSceneByName(loadScene));
+            playerSave.moveInventory();
         }
     }
 }

@@ -56,15 +56,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ApplicationData.cs" />
      <Compile Include="Assets\Scripts\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\checkDoor.cs" />
      <Compile Include="Assets\Scripts\enemyHealth.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
+     <Compile Include="Assets\Scripts\GlobalControl.cs" />
      <Compile Include="Assets\Scripts\inventory.cs" />
      <Compile Include="Assets\Scripts\objectVector.cs" />
      <Compile Include="Assets\Scripts\openChest.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerMovementV2.cs" />
+     <Compile Include="Assets\Scripts\saveData.cs" />
      <Compile Include="Assets\Scripts\Transition.cs" />
      <Compile Include="Assets\Scripts\UpdateLayer.cs" />
      <Compile Include="Assets\Scripts\UpdateLayerTilemap.cs" />

@@ -4,14 +4,18 @@ using UnityEngine;
 
 public class inventory : MonoBehaviour
 {
-    private bool hasSword;
+    private static bool hasSword;
     private Animator animator;
     
     // Start is called before the first frame update
     void Start()
     {
-        hasSword = false;
         animator = GetComponent<Animator>();
+
+        if (hasSword)
+        {
+            giveSword();
+        }
     }
 
     public void giveSword()
@@ -20,6 +24,7 @@ public class inventory : MonoBehaviour
         if (animator != null)
         {
             animator.SetBool("hasSword", hasSword);
+            ApplicationData.hasSword = hasSword;
         }
     }
 
