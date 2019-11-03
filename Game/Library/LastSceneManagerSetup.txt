@@ -7,3 +7,7 @@ sceneSetups:
   isLoaded: 0
   isActive: 0
   isSubScene: 0
+- path: Assets/Dungeon2.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
