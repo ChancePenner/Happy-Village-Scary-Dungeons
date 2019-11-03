@@ -54,4 +54,41 @@ Chance, Thomas, Haonan
 Agenda:
 *Mob death animation
 *More specified Gantt chart for project3
+
+Meeting 7:
+Location: Leep2 1324
+11/1/2019 @ 15:00 to 00:30
+Chance, Thomas, Haonan
+Agenda:
+*Added Transition for dungeon1 to dungeon2
+*Implemented dungeon2 puzzle
+*Added player knockback
+*Added enemy AI and movement
+
+Meeting 8:
+Location: Leep2 1324
+11/1/2019 @ 10:00 to 11:00
+Chance, Thomas
+Agenda:
+*Fixed issue that player cannt have sword in dungeon2
+
+Meeting 9:
+Location: Leep2 1324
+11/1/2019 @ 11:00 to 13:00
+Chance, Thomas, Markus
+Agenda:
+*Finishing Gantt chart for rest of project3
+
+Meeting 10:
+Location: Leep2 1324
+11/1/2019 @ 13:00 to 15:00
+Chance, Thomas, Markus, Sarah
+Agenda:
+*Finishing Gantt chart for rest of project3
+
+Meeting 11:
+Location: Leep2 2420
+11/1/2019 @ 15:00 to 18:00
+Chance, Thomas, Haonan
+Agenda:
 *
