@@ -39,6 +39,15 @@ public class enemyHealth : MonoBehaviour
             transform.position = new Vector2(transform.position.x + difference.x, transform.position.y + difference.y);
         }
     }
+    private void OnCollisionStay2D(Collision2D other)
+    {
+        if(other.gameObject.CompareTag("Player"))
+        {
+            Vector2 difference = other.transform.position - transform.position;
+            other.transform.position = new Vector2(other.transform.position.x + difference.x, other.transform.position.y + difference.y);
+        }
+    }
+
 
     private void DestroyEnemy()
     {
