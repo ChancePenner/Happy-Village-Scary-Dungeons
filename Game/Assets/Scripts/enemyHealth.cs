@@ -14,7 +14,6 @@ public class enemyHealth : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        enemy_health = 4.0;
         isDead = false;
     }
 

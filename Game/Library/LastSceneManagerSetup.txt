@@ -3,11 +3,15 @@ sceneSetups:
   isLoaded: 1
   isActive: 1
   isSubScene: 0
-- path: Assets/Main.unity
-  isLoaded: 0
+- path: Assets/Dungeon2.unity
+  isLoaded: 1
   isActive: 0
   isSubScene: 0
-- path: Assets/Dungeon2.unity
+- path: Assets/Dungeon3.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Main.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0

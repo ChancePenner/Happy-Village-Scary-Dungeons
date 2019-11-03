@@ -118,7 +118,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 10000
+  m_Mass: 1000000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -177,7 +177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64a8cd846b7d84b14894854f484294ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy_health: 0
+  enemy_health: 4
   isDead: 0
 --- !u!114 &-2718443856221984807
 MonoBehaviour:
@@ -191,5 +191,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32d25f9d0688d463db1553114e1e7c8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1.5
-  stoppingDistance: 0.3
+  speed: 1.3
+  stoppingDistance: 1
