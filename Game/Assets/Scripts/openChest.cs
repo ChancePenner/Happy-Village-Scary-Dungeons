@@ -1,4 +1,16 @@
-﻿using System;
+﻿/**
+KU EECS 448 project 3
+TeamName: BigSegFaultEnergy
+  * \Author: Chance Penner
+  * \Author: Markus Becerra
+  * \Author: Sarah Scott
+  * \Author: Thomas Gardner
+  * \Author: Haonan Hu
+  * \File:	 openChest.cs
+  * \Date:   11/3/2019
+  * \Brief:  This script controls chest open related functionality
+ **/
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,18 +26,24 @@ public class openChest : MonoBehaviour
     private Collider2D  Player;
     private Animator anim; 
     
-    // Start is called before the first frame update
-    void Start()
+    /*
+     * @ pre none
+     * @ param none
+     * @ post get called before frame gets updated and check the chest is able to open or not
+     * @ return none
+     */
+    void Start() // Start is called before the first frame update
     {
         chestOpen = false;
         anim = GetComponent<Animator>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-    }
-
+    
+    /*
+     * @ pre none
+     * @ param a collider2D object
+     * @ post if player collider intersect with other collider function got called and open a chest for player
+     * @ return none
+     */
     private void OnTriggerStay2D(Collider2D other)
     {
         if(other.gameObject.CompareTag(tagName) && Input.GetKeyDown("space") && !chestOpen)
@@ -35,13 +53,25 @@ public class openChest : MonoBehaviour
             Player = other;
         }
     }
-
+    
+    /*
+     * @ pre none
+     * @ param none
+     * @ post set the chest status to be opened
+     * @ return none
+     */
     private void chestIsOpen()
     {
         chestOpen = true;
       
     }
-
+    
+    /*
+     * @ pre none
+     * @ param none
+     * @ post spawn an enemy for player if chest is opened
+     * @ return none
+     */
     private void spawnEnemy()
     { 
         if (Player != null)
@@ -51,11 +81,5 @@ public class openChest : MonoBehaviour
         Instantiate(Enemy);
     }
 
-    private void giveItem()
-    {
-        
-       // Instantiate(Item);
-    }
-    
 
 }

@@ -1,4 +1,16 @@
-﻿using System.Collections;
+﻿/**
+KU EECS 448 project 3
+TeamName: BigSegFaultEnergy
+  * \Author: Chance Penner
+  * \Author: Markus Becerra
+  * \Author: Sarah Scott
+  * \Author: Thomas Gardner
+  * \Author: Haonan Hu
+  * \File:	 inventory.cs
+  * \Date:   11/3/2019
+  * \Brief:  This script makes an inventory for player
+ **/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,8 +19,14 @@ public class inventory : MonoBehaviour
     private static bool hasSword;
     private Animator animator;
     
-    // Start is called before the first frame update
-    void Start()
+    /*
+     * @ pre none
+     * @ param none
+     * @ post get called before frame gets updated and check player has a sword or
+     *   not and apply animation for a sword if player has sword
+     * @ return none
+     */
+    void Start()  // Start is called before the first frame update
     {
         animator = GetComponent<Animator>();
 
@@ -17,7 +35,13 @@ public class inventory : MonoBehaviour
             giveSword();
         }
     }
-
+    
+    /*
+     * @ pre none
+     * @ param none
+     * @ post gives player sword
+     * @ return none
+     */
     public void giveSword()
     {
         hasSword = true;
@@ -27,7 +51,13 @@ public class inventory : MonoBehaviour
             ApplicationData.hasSword = hasSword;
         }
     }
-
+    
+    /*
+     * @ pre none
+     * @ param none
+     * @ post helper function to check player has a sword or not
+     * @ return true if player has a sword, vice versa
+     */
     public bool ActiveSword()
     {
         return hasSword;

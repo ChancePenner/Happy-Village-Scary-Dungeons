@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_enemy_movement" kind="class" language="C#" prot="public">
+    <compoundname>EnemyMovement</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_enemy_movement_1a10af9877c4abb972cfecbc3e284e742d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyMovement.speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/EnemyMovement.cs" line="19" column="18" bodyfile="Assets/Scripts/EnemyMovement.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_movement_1a4c3ce1628a67e4ac37503aaaa8eab00d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyMovement.stoppingDistance</definition>
+        <argsstring></argsstring>
+        <name>stoppingDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/EnemyMovement.cs" line="20" column="18" bodyfile="Assets/Scripts/EnemyMovement.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_enemy_movement_1a5a6dd576997c325d0295a753ab1238a3" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform EnemyMovement.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/EnemyMovement.cs" line="22" column="23" bodyfile="Assets/Scripts/EnemyMovement.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_enemy_movement_1a2ab541315ed5a42294ed7adb32ce3376" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyMovement.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/EnemyMovement.cs" line="30" column="10" bodyfile="Assets/Scripts/EnemyMovement.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_movement_1adef7240bdf6f61abfe764487f963bd50" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyMovement.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/EnemyMovement.cs" line="41" column="10" bodyfile="Assets/Scripts/EnemyMovement.cs" bodystart="41" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EnemyMovement</label>
+        <link refid="class_enemy_movement"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>EnemyMovement</label>
+        <link refid="class_enemy_movement"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/EnemyMovement.cs" line="18" column="1" bodyfile="Assets/Scripts/EnemyMovement.cs" bodystart="17" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_enemy_movement_1a10af9877c4abb972cfecbc3e284e742d" prot="public" virt="non-virtual"><scope>EnemyMovement</scope><name>speed</name></member>
+      <member refid="class_enemy_movement_1a2ab541315ed5a42294ed7adb32ce3376" prot="private" virt="non-virtual"><scope>EnemyMovement</scope><name>Start</name></member>
+      <member refid="class_enemy_movement_1a4c3ce1628a67e4ac37503aaaa8eab00d" prot="public" virt="non-virtual"><scope>EnemyMovement</scope><name>stoppingDistance</name></member>
+      <member refid="class_enemy_movement_1a5a6dd576997c325d0295a753ab1238a3" prot="private" virt="non-virtual"><scope>EnemyMovement</scope><name>target</name></member>
+      <member refid="class_enemy_movement_1adef7240bdf6f61abfe764487f963bd50" prot="private" virt="non-virtual"><scope>EnemyMovement</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

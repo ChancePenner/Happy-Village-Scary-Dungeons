@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classenemy_health" kind="class" language="C#" prot="public">
+    <compoundname>enemyHealth</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classenemy_health_1acb9277127f93a794d58402e0fc156993" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double enemyHealth.enemy_health</definition>
+        <argsstring></argsstring>
+        <name>enemy_health</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/enemyHealth.cs" line="21" column="19" bodyfile="Assets/Scripts/enemyHealth.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classenemy_health_1a2db5c3f2f095dfe7f639ac632e6b3f77" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool enemyHealth.isDead</definition>
+        <argsstring></argsstring>
+        <name>isDead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/enemyHealth.cs" line="22" column="17" bodyfile="Assets/Scripts/enemyHealth.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classenemy_health_1a0e84b6373de4ac7d8440f7dccc53377c" prot="private" static="no" mutable="no">
+        <type>Rigidbody2D</type>
+        <definition>Rigidbody2D enemyHealth.myRigidbody</definition>
+        <argsstring></argsstring>
+        <name>myRigidbody</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/enemyHealth.cs" line="23" column="25" bodyfile="Assets/Scripts/enemyHealth.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classenemy_health_1a59d381ebf7cb03493d7bb59e9fee9b9c" prot="private" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator enemyHealth.animator</definition>
+        <argsstring></argsstring>
+        <name>animator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/enemyHealth.cs" line="24" column="22" bodyfile="Assets/Scripts/enemyHealth.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classenemy_health_1a1d2bb9351dcac9e88be07ee0981bf2d0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void enemyHealth.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/enemyHealth.cs" line="32" column="10" bodyfile="Assets/Scripts/enemyHealth.cs" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classenemy_health_1a148b750ad007c294a1bce66bd702027c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void enemyHealth.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/enemyHealth.cs" line="45" column="10" bodyfile="Assets/Scripts/enemyHealth.cs" bodystart="45" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classenemy_health_1a8fb8975eb59106b9172797b84e4016f6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void enemyHealth.OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D other)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <param>
+          <type>Collider2D</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/enemyHealth.cs" line="60" column="18" bodyfile="Assets/Scripts/enemyHealth.cs" bodystart="60" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classenemy_health_1a85adfa54e6bd2e284969d5507b6dd23c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void enemyHealth.OnCollisionStay2D</definition>
+        <argsstring>(Collision2D other)</argsstring>
+        <name>OnCollisionStay2D</name>
+        <param>
+          <type>Collision2D</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/enemyHealth.cs" line="78" column="18" bodyfile="Assets/Scripts/enemyHealth.cs" bodystart="78" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classenemy_health_1a35f301be6ea4d3368f61f1ef4a3f3385" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void enemyHealth.DestroyEnemy</definition>
+        <argsstring>()</argsstring>
+        <name>DestroyEnemy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/enemyHealth.cs" line="93" column="18" bodyfile="Assets/Scripts/enemyHealth.cs" bodystart="93" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>enemyHealth</label>
+        <link refid="classenemy_health"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>enemyHealth</label>
+        <link refid="classenemy_health"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/enemyHealth.cs" line="19" column="1" bodyfile="Assets/Scripts/enemyHealth.cs" bodystart="18" bodyend="100"/>
+    <listofallmembers>
+      <member refid="classenemy_health_1a59d381ebf7cb03493d7bb59e9fee9b9c" prot="private" virt="non-virtual"><scope>enemyHealth</scope><name>animator</name></member>
+      <member refid="classenemy_health_1a35f301be6ea4d3368f61f1ef4a3f3385" prot="private" virt="non-virtual"><scope>enemyHealth</scope><name>DestroyEnemy</name></member>
+      <member refid="classenemy_health_1acb9277127f93a794d58402e0fc156993" prot="public" virt="non-virtual"><scope>enemyHealth</scope><name>enemy_health</name></member>
+      <member refid="classenemy_health_1a2db5c3f2f095dfe7f639ac632e6b3f77" prot="public" virt="non-virtual"><scope>enemyHealth</scope><name>isDead</name></member>
+      <member refid="classenemy_health_1a0e84b6373de4ac7d8440f7dccc53377c" prot="private" virt="non-virtual"><scope>enemyHealth</scope><name>myRigidbody</name></member>
+      <member refid="classenemy_health_1a85adfa54e6bd2e284969d5507b6dd23c" prot="private" virt="non-virtual"><scope>enemyHealth</scope><name>OnCollisionStay2D</name></member>
+      <member refid="classenemy_health_1a8fb8975eb59106b9172797b84e4016f6" prot="private" virt="non-virtual"><scope>enemyHealth</scope><name>OnTriggerEnter2D</name></member>
+      <member refid="classenemy_health_1a1d2bb9351dcac9e88be07ee0981bf2d0" prot="private" virt="non-virtual"><scope>enemyHealth</scope><name>Start</name></member>
+      <member refid="classenemy_health_1a148b750ad007c294a1bce66bd702027c" prot="private" virt="non-virtual"><scope>enemyHealth</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,4 +1,17 @@
-﻿using System.Collections;
+﻿/**
+KU EECS 448 project 3
+TeamName: BigSegFaultEnergy
+  * \Author: Chance Penner
+  * \Author: Markus Becerra
+  * \Author: Sarah Scott
+  * \Author: Thomas Gardner
+  * \Author: Haonan Hu
+  * \File:	 CameraMovement.cs
+  * \Date:   11/3/2019
+  * \Brief:  This script in charge of main camera auto following character
+ **/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,24 +19,23 @@ public class CameraMovement : MonoBehaviour
 {
     public Transform target;
     public float smoothingSpeed;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
+    /*
+     * @ pre none
+     * @ param none
+     * @ post  every frame this function get called to stick camera with player
+     * @ return none
+     */
     void LateUpdate()
     {
         if (transform.position != target.position)
         {
             Vector3 targetPosition = new Vector3(target.position.x,
-                                                    target.position.y,
-                                                    transform.position.z);
-            transform.position = Vector3.Lerp(transform.position, 
-                targetPosition, 
-                    smoothingSpeed);
+                target.position.y,
+                transform.position.z);
+            transform.position = Vector3.Lerp(transform.position,
+                targetPosition,
+                smoothingSpeed);
         }
     }
 }

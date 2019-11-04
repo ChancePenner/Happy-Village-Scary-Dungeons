@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_update_layer_tilemap" kind="class" language="C#" prot="public">
+    <compoundname>UpdateLayerTilemap</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_update_layer_tilemap_1a5dc09331d826e2c11eeb35752b924306" prot="private" static="no" mutable="no">
+        <type>TilemapRenderer</type>
+        <definition>TilemapRenderer UpdateLayerTilemap.objectLayer</definition>
+        <argsstring></argsstring>
+        <name>objectLayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/UpdateLayerTilemap.cs" line="20" column="29" bodyfile="Assets/Scripts/UpdateLayerTilemap.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_update_layer_tilemap_1ab1406b30c5250cebb6ea707423cea3d8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UpdateLayerTilemap.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/UpdateLayerTilemap.cs" line="28" column="10" bodyfile="Assets/Scripts/UpdateLayerTilemap.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_update_layer_tilemap_1ae9e9455c9d956e94afbb119a3c99029d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UpdateLayerTilemap.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/UpdateLayerTilemap.cs" line="39" column="10" bodyfile="Assets/Scripts/UpdateLayerTilemap.cs" bodystart="39" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>UpdateLayerTilemap</label>
+        <link refid="class_update_layer_tilemap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>UpdateLayerTilemap</label>
+        <link refid="class_update_layer_tilemap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/UpdateLayerTilemap.cs" line="19" column="1" bodyfile="Assets/Scripts/UpdateLayerTilemap.cs" bodystart="18" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_update_layer_tilemap_1a5dc09331d826e2c11eeb35752b924306" prot="private" virt="non-virtual"><scope>UpdateLayerTilemap</scope><name>objectLayer</name></member>
+      <member refid="class_update_layer_tilemap_1ab1406b30c5250cebb6ea707423cea3d8" prot="private" virt="non-virtual"><scope>UpdateLayerTilemap</scope><name>Start</name></member>
+      <member refid="class_update_layer_tilemap_1ae9e9455c9d956e94afbb119a3c99029d" prot="private" virt="non-virtual"><scope>UpdateLayerTilemap</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

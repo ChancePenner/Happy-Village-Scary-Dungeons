@@ -1,4 +1,17 @@
-﻿using System.Collections;
+﻿/**
+KU EECS 448 project 3
+TeamName: BigSegFaultEnergy
+  * \Author: Chance Penner
+  * \Author: Markus Becerra
+  * \Author: Sarah Scott
+  * \Author: Thomas Gardner
+  * \Author: Haonan Hu
+  * \File:	 checkDoor.cs
+  * \Date:   11/3/2019
+  * \Brief:  This script makes door open after you kill all mobs spawn in the scene
+ **/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,7 +25,12 @@ public class checkDoor : MonoBehaviour
     public GameObject player;
     public GameObject door;
 
-    // Start is called before the first frame update
+    /*
+     * @ pre none
+     * @ param none
+     * @ post get called before frame update and check number of mobs in the scene
+     * @ return none
+     */
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -20,8 +38,13 @@ public class checkDoor : MonoBehaviour
         enemySpawned = false;
     }
 
-    // Update is called once per frame
-    void Update()
+    /*
+     * @ pre none
+     * @ param none
+     * @ post get called every frame to check if there is any mob in the scene
+     * @ return none
+     */
+    void Update() // Update is called once per frame
     {
         enemies = GameObject.FindGameObjectsWithTag("Enemy1");
         
