@@ -32,7 +32,6 @@ public class enemyHealth : MonoBehaviour
     void Start()  // Start is called before the first frame update
     {
         animator = GetComponent<Animator>();
-        enemy_health = 4.0;
         isDead = false;
     }
 
