@@ -57,7 +57,15 @@ Agenda:
 
 Meeting 7:
 Location: Leep2 1324
-11/1/2019 @ 15:00 to 00:30
+11/1/2019 @ 16:00 to 18:00
+Chance, Thomas,
+Agenda:
+*Added open chest after killing monster
+*Fix layering issues with chest and other objects
+
+Meeting 8:
+Location: Leep2 1324
+11/2/2019 @ 15:00 to 00:30
 Chance, Thomas, Haonan
 Agenda:
 *Added Transition for dungeon1 to dungeon2
@@ -65,30 +73,33 @@ Agenda:
 *Added player knockback
 *Added enemy AI and movement
 
-Meeting 8:
-Location: Leep2 1324
-11/1/2019 @ 10:00 to 11:00
-Chance, Thomas
-Agenda:
-*Fixed issue that player cannt have sword in dungeon2
-
 Meeting 9:
 Location: Leep2 1324
-11/1/2019 @ 11:00 to 13:00
+11/3/2019 @ 10:00 to 11:00
+Chance, Thomas
+Agenda:
+*Fixed issue that player cannot have sword in dungeon2
+
+Meeting 10:
+Location: Leep2 1324
+11/3/2019 @ 11:00 to 13:00
 Chance, Thomas, Markus
 Agenda:
 *Finishing Gantt chart for rest of project3
 
-Meeting 10:
+Meeting 11:
 Location: Leep2 1324
-11/1/2019 @ 13:00 to 15:00
+11/3/2019 @ 13:00 to 15:00
 Chance, Thomas, Markus, Sarah
 Agenda:
 *Finishing Gantt chart for rest of project3
 
-Meeting 11:
+Meeting 12:
 Location: Leep2 2420
-11/1/2019 @ 15:00 to 18:00
-Chance, Thomas, Haonan
+11/3/2019 @ 15:00 to 18:00
+All in attendance
 Agenda:
-*
+*Finish scene 2-3 and transitions
+*Finalize documentation
+*Prepare project for demo
+*Submit project 3
