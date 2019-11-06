@@ -103,3 +103,18 @@ Agenda:
 *Finalize documentation
 *Prepare project for demo
 *Submit project 3
+-------------Project 4 Meeting times---------------
+Meeting 13:
+Location: Leep2
+11/5/2019 @ 12:00 to 1:00
+Chance, Thomas
+Agenda:
+*Test better background colors
+*Research better object layering method
+
+Meeting 14:
+Location: Leep2
+11/5/2019 @ 17:00 to 19:40
+Chance, Thomas
+Agenda:
+*Fix a huge layering bug
