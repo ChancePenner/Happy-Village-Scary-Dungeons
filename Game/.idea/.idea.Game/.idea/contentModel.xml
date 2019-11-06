@@ -23,6 +23,7 @@
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PlayerMovementV2.cs" t="Include" />
           <e p="saveData.cs" t="Include" />
+          <e p="SpriteOrderSystem.cs" t="Include" />
           <e p="Transition.cs" t="Include" />
           <e p="UpdateLayer.cs" t="Include" />
           <e p="UpdateLayerTilemap.cs" t="Include" />
