@@ -601,12 +601,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3625484671687448096, guid: 0acda5bf87ca148bb89a7355dc00c09b,
-        type: 3}
-      propertyPath: startPosition
-      value: 
-      objectReference: {fileID: 11400000, guid: f6dbd43aee27444dd8105a4ae1419623,
-        type: 2}
     - target: {fileID: 3625484671687448101, guid: 0acda5bf87ca148bb89a7355dc00c09b,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -617,6 +611,12 @@ PrefabInstance:
       propertyPath: m_SortingLayer
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3625484671687448096, guid: 0acda5bf87ca148bb89a7355dc00c09b,
+        type: 3}
+      propertyPath: startPosition
+      value: 
+      objectReference: {fileID: 11400000, guid: f6dbd43aee27444dd8105a4ae1419623,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0acda5bf87ca148bb89a7355dc00c09b, type: 3}
 --- !u!4 &279572101 stripped
@@ -1334,6 +1334,11 @@ PrefabInstance:
         type: 3}
       propertyPath: enemy_health
       value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075456032494961824, guid: 03302c7dd84ca4f06a3f1acfbb1a9075,
+        type: 3}
+      propertyPath: enemyStrength
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03302c7dd84ca4f06a3f1acfbb1a9075, type: 3}
@@ -2759,6 +2764,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 279572101}
   smoothingSpeed: 0.2
+  maxPosition: {x: 0, y: 70}
+  minPosition: {x: 0, y: 66.5}
 --- !u!81 &1927380776
 AudioListener:
   m_ObjectHideFlags: 0
@@ -2777,7 +2784,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.023529412, g: 0.12156863, b: 0.043137256, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2818,7 +2825,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1927380774}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 70, z: -10}
+  m_LocalPosition: {x: 0, y: 66.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
