@@ -11,6 +11,7 @@
         <e p="MiniTileset-Dungeon" t="Include">
           <e p="Thank You!.txt" t="Include" />
         </e>
+        <e p="playerHealth.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="CameraMovement.cs" t="Include" />
           <e p="checkDoor.cs" t="Include" />

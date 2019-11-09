@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 3625484671687448097}
   - component: {fileID: 3625484671687448098}
   - component: {fileID: 3625484671687448107}
+  - component: {fileID: 9115039012329295773}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -200,6 +201,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 969bbf264367a4f6fbd8e82ad8928e45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &9115039012329295773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3625484671687448099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85adc9008e96343548400cc8f369fa0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  numOfHearts: 3
+  hearts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  fullHeart: {fileID: -4430392651179603617, guid: 7819f04a5270540ae8fa9f3be16c5295,
+    type: 3}
+  threeFourthsHeart: {fileID: 2654447934904345190, guid: 7819f04a5270540ae8fa9f3be16c5295,
+    type: 3}
+  halfHeart: {fileID: -3276687688264177478, guid: 7819f04a5270540ae8fa9f3be16c5295,
+    type: 3}
+  quarterHeart: {fileID: 5069650035751226587, guid: 7819f04a5270540ae8fa9f3be16c5295,
+    type: 3}
+  emptyHeart: {fileID: -9053378900703536071, guid: 7819f04a5270540ae8fa9f3be16c5295,
+    type: 3}
 --- !u!1 &3625484671731121260
 GameObject:
   m_ObjectHideFlags: 0

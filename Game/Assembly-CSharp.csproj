@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\ApplicationData.cs" />
+     <Compile Include="Assets\playerHealth.cs" />
      <Compile Include="Assets\Scripts\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\checkDoor.cs" />
      <Compile Include="Assets\Scripts\enemyHealth.cs" />
