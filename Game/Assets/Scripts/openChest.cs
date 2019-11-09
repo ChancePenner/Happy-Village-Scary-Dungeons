@@ -73,12 +73,22 @@ public class openChest : MonoBehaviour
      * @ return none
      */
     private void spawnEnemy()
-    { 
+    {
+        Instantiate(Enemy);
+    }
+
+    /*
+     * @ pre none
+     * @ param none
+     * @ post give player sword once chest is open
+     * @ return none
+     */
+    private void giveSword()
+    {
         if (Player != null)
         {
             Player.GetComponent<inventory>().giveSword();
         }
-        Instantiate(Enemy);
     }
 
 
