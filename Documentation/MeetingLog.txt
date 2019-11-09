@@ -118,3 +118,31 @@ Location: Leep2
 Chance, Thomas
 Agenda:
 *Fix a huge layering bug
+
+Meeting 15:
+Location: Eaton
+11/6/2019 @ 9:00 to 10:50
+All in attendance
+Agenda:
+*Design town
+*Work on diagonal hurtbox bug
+
+Meeting 16:
+Location: Leep2
+11/8/2019 @ 9:00 to 10:50
+Chance, Thomas, Sarah, Haonan
+Agenda:
+*Work on dungeon design
+*Fix tilemap sprites
+
+
+Meeting 17:
+Location: Leep2
+11/9/2019 @ 16:00 to 21:30
+Chance, Thomas
+Agenda:
+*Fix diagonal hurtbox bug
+*Add death animation
+*Implement player healthUI
+*Implement player health system
+*Add camera boundary
