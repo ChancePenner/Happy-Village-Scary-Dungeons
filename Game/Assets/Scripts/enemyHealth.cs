@@ -19,6 +19,7 @@ public class enemyHealth : MonoBehaviour
 {
 
     public double enemy_health;
+    public int enemyStrength;
     public bool isDead; 
     private Rigidbody2D myRigidbody;
     private Animator animator;
@@ -80,6 +81,14 @@ public class enemyHealth : MonoBehaviour
         {
             Vector2 difference = other.transform.position - transform.position;
             other.transform.position = new Vector2(other.transform.position.x + difference.x, other.transform.position.y + difference.y);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            other.gameObject.GetComponent<playerHealth>().harmPlayer(enemyStrength);
         }
     }
 

@@ -178,6 +178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy_health: 4
+  enemyStrength: 2
   isDead: 0
 --- !u!114 &-2718443856221984807
 MonoBehaviour:

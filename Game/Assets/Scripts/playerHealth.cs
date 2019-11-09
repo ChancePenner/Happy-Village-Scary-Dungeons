@@ -16,7 +16,33 @@ public class playerHealth : MonoBehaviour
     public Sprite halfHeart;        //half heart sprite
     public Sprite quarterHeart;     //quarter heart sprite
     public Sprite emptyHeart;       //empty heart
+    private Animator anim;
 
+    private void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
+
+    public void harmPlayer(int damageAmount)
+    {
+        Debug.Log(health);
+        if ((health - damageAmount) <= 0)
+        {
+            health = 0;
+            gameOver();
+        }
+        else
+        {
+            health = health - damageAmount;
+        }
+    }
+
+    private void gameOver()
+    {
+        gameObject.GetComponent<PlayerMovement>().speed = 0;    //player cannot move once dead
+        anim.SetBool("playerDead", true);           //set the animator playerDead to true to trigger death animation
+    }
+    
     void Update()            
     {
         if (health > (numOfHearts * 4))        //if the health is greater than the total number of hearts
@@ -78,5 +104,10 @@ public class playerHealth : MonoBehaviour
                 hearts[i].enabled = false;
             }
         }
+    }
+
+    private void destroyPlayer()
+    {
+        Destroy(gameObject);
     }
 }
