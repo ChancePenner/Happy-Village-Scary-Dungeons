@@ -108,7 +108,7 @@ public class playerHealth : MonoBehaviour
 
     private void destroyPlayer()
     {
-        Destroy(gameObject);
+//        Destroy(gameObject);
     }
 
     public void setHealth(int healthAmount)

@@ -146,3 +146,12 @@ Agenda:
 *Implement player healthUI
 *Implement player health system
 *Add camera boundary
+
+Meeting 18:
+Location: Leep2
+11/9/2019 @ 16:00 to 20:10
+Chance, Haonan, Thomas
+Agenda:
+*Track players health between scenes
+*Design portion of the overworld
+*Add main menu scene
