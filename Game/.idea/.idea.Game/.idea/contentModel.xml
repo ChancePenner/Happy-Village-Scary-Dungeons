@@ -12,6 +12,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="ApplicationData.cs" t="Include" />
+          <e p="buttonPress.cs" t="Include" />
           <e p="CameraMovement.cs" t="Include" />
           <e p="checkDoor.cs" t="Include" />
           <e p="enemyHealth.cs" t="Include" />

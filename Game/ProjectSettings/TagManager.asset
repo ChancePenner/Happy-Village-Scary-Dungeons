@@ -8,6 +8,10 @@ TagManager:
   - Enemy1
   - swordHitbox
   - box
+  - redButton
+  - blueButton
+  - blueBox
+  - redBox
   layers:
   - Default
   - TransparentFX
@@ -47,6 +51,9 @@ TagManager:
     locked: 0
   - name: ground
     uniqueID: 4162570923
+    locked: 0
+  - name: buttons
+    uniqueID: 954219181
     locked: 0
   - name: objects
     uniqueID: 355142713
