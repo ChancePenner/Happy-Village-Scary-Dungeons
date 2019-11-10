@@ -11,9 +11,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4009bdfbd908ccf41a101be04ed6567d, type: 3}
   m_Name: Default Brush
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   m_Cells:
-  - m_Tile: {fileID: 11400000, guid: 8cefa06210cbb4f7bb9e6714a31a88e1, type: 2}
+  - m_Tile: {fileID: 11400000, guid: ed7917661c0e9469b99d144e6ef613b6, type: 2}
     m_Matrix:
       e00: 1
       e01: 0
