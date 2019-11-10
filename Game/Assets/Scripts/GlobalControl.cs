@@ -30,9 +30,9 @@ public class GlobalControl : MonoBehaviour
     {
         if (Instance == null)
         {
+            Debug.Log("DONT DESTROY!");
             DontDestroyOnLoad(gameObject);
             Instance = this;
-            
         }
         else if (Instance != this)
         {

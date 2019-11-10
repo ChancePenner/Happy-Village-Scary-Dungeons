@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 3625484671687448102}
   - component: {fileID: 3625484671687448103}
   - component: {fileID: 3625484671687448096}
-  - component: {fileID: 3625484671687448097}
   - component: {fileID: 3625484671687448098}
   - component: {fileID: 3625484671687448107}
   - component: {fileID: 9115039012329295773}
@@ -154,22 +153,6 @@ MonoBehaviour:
   currentState: 0
   speed: 4
   startPosition: {fileID: 11400000, guid: 89c967a69cb324149adb597729df9756, type: 2}
---- !u!114 &3625484671687448097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3625484671687448099}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97503c45582f943138f24132bb94b652, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 4
-  rb: {fileID: 3625484671687448102}
-  animator: {fileID: 3625484671687448098}
-  movement: {x: 0, y: 0}
 --- !u!95 &3625484671687448098
 Animator:
   serializedVersion: 3
@@ -213,8 +196,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85adc9008e96343548400cc8f369fa0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
-  numOfHearts: 3
   hearts:
   - {fileID: 0}
   - {fileID: 0}

@@ -1172,7 +1172,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &295927387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3002,6 +3002,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3625484671687448099, guid: 0acda5bf87ca148bb89a7355dc00c09b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3625484671687448099, guid: 0acda5bf87ca148bb89a7355dc00c09b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3625484671687448100, guid: 0acda5bf87ca148bb89a7355dc00c09b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3133,6 +3143,26 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 2c7ab3d48a0134aa8ba71f1d2cb9d651,
         type: 2}
+    - target: {fileID: 3625484671731121260, guid: 0acda5bf87ca148bb89a7355dc00c09b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3625484671822180198, guid: 0acda5bf87ca148bb89a7355dc00c09b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3625484671947591077, guid: 0acda5bf87ca148bb89a7355dc00c09b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3625484671968616090, guid: 0acda5bf87ca148bb89a7355dc00c09b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0acda5bf87ca148bb89a7355dc00c09b, type: 3}
 --- !u!1 &1213075815
