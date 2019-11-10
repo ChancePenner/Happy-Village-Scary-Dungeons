@@ -694,7 +694,7 @@ TextureImporter:
     second: Overworld_229
   - first:
       213: 3559884070205965680
-    second: Overworld_230
+    second: TombStone
   - first:
       213: 353664641242372072
     second: Overworld_231
@@ -8135,13 +8135,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Overworld_230
+      name: TombStone
       rect:
         serializedVersion: 2
-        x: 592
-        y: 480
-        width: 16
-        height: 16
+        x: 599
+        y: 471
+        width: 18
+        height: 22
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
