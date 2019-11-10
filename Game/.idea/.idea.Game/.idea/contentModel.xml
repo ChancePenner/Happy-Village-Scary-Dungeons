@@ -17,6 +17,7 @@
           <e p="enemyHealth.cs" t="Include" />
           <e p="EnemyMovement.cs" t="Include" />
           <e p="GlobalControl.cs" t="Include" />
+          <e p="initializeHealth.cs" t="Include" />
           <e p="inventory.cs" t="Include" />
           <e p="objectVector.cs" t="Include" />
           <e p="openChest.cs" t="Include" />

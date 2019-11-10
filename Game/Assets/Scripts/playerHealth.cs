@@ -7,8 +7,8 @@ using UnityEngine.UI;
 
 public class playerHealth : MonoBehaviour
 {
-    public int health;            //will be decreased based on enemy strength
-    public int numOfHearts;       //current max hearts the player has
+    static int health;            //will be decreased based on enemy strength
+    static int numOfHearts;       //current max hearts the player has
     
     public Image[] hearts;        //images array to hold the total hearts for the player
     public Sprite fullHeart;      //full heart sprite
@@ -109,5 +109,15 @@ public class playerHealth : MonoBehaviour
     private void destroyPlayer()
     {
         Destroy(gameObject);
+    }
+
+    public void setHealth(int healthAmount)
+    {
+        health = healthAmount;
+    }
+
+    public void setNumOfHearts(int numOfHeartsAmount)
+    {
+        numOfHearts = numOfHeartsAmount;
     }
 }

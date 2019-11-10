@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\enemyHealth.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\GlobalControl.cs" />
+     <Compile Include="Assets\Scripts\initializeHealth.cs" />
      <Compile Include="Assets\Scripts\inventory.cs" />
      <Compile Include="Assets\Scripts\objectVector.cs" />
      <Compile Include="Assets\Scripts\openChest.cs" />
