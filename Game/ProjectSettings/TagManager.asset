@@ -48,6 +48,12 @@ TagManager:
   - name: ground
     uniqueID: 4162570923
     locked: 0
+  - name: Bridge
+    uniqueID: 1362491075
+    locked: 0
   - name: objects
     uniqueID: 355142713
+    locked: 0
+  - name: Building
+    uniqueID: 2743974371
     locked: 0
