@@ -12,6 +12,7 @@ TagManager:
   - blueButton
   - blueBox
   - redBox
+  - door
   layers:
   - Default
   - TransparentFX

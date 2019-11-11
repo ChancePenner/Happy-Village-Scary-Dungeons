@@ -5,19 +5,33 @@ using UnityEngine;
 
 public class buttonPress : MonoBehaviour
 {
+    public GameObject Enemy;
+    
+    private static bool redButtonPressed;
+    private static bool blueButtonPressed;
+    private static bool enemiesNotYetSpawned;
     private Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
+        redButtonPressed = false;
+        blueButtonPressed = false;
+        enemiesNotYetSpawned = true;
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (enemiesNotYetSpawned && redButtonPressed && blueButtonPressed)
+        {
+            Instantiate(Enemy, new Vector3(-4, 10, 0), Quaternion.identity); 
+            Instantiate(Enemy, new Vector3(0, 2, 0), Quaternion.identity);           
+
+            enemiesNotYetSpawned = false;
+        }
     }
 
     private void OnTriggerStay2D(Collider2D other)
@@ -26,14 +40,16 @@ public class buttonPress : MonoBehaviour
         {
             if(other.gameObject.CompareTag("blueBox"))
             {
-                anim.SetBool("isBlueButtonDown", true);  
+                anim.SetBool("isBlueButtonDown", true);
+                blueButtonPressed = true;
             }
         }
         else if (gameObject.CompareTag("redButton"))
         {
             if(other.gameObject.CompareTag("redBox"))
             {
-               anim.SetBool("isRedButtonDown", true);  
+               anim.SetBool("isRedButtonDown", true);
+               redButtonPressed = true;
             }
            
         }
@@ -47,13 +63,15 @@ public class buttonPress : MonoBehaviour
             if(other.gameObject.CompareTag("blueBox"))
             {
                 anim.SetBool("isBlueButtonDown", false);
+                blueButtonPressed = false;
             }
         }
         else if (gameObject.CompareTag("redButton"))
         {
             if(other.gameObject.CompareTag("redBox"))
             {
-                anim.SetBool("isRedButtonDown", false);  
+                anim.SetBool("isRedButtonDown", false);
+                redButtonPressed = false;
             }
            
         }
