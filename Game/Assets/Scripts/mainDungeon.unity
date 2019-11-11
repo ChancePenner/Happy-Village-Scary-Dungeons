@@ -1427,7 +1427,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 311494032}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.79, y: 9.89, z: -3.8481996}
+  m_LocalPosition: {x: 9.17, y: 9.82, z: -3.8481996}
   m_LocalScale: {x: 1.6046451, y: 1.6046451, z: 1.6046451}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1961,7 +1961,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 815853190}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.73, y: 4.08, z: -3.8481996}
+  m_LocalPosition: {x: -8.79, y: 4.14, z: -3.8481996}
   m_LocalScale: {x: 1.6046451, y: 1.6046451, z: 1.6046451}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2307,6 +2307,7 @@ GameObject:
   - component: {fileID: 888400009}
   - component: {fileID: 888400011}
   - component: {fileID: 888400012}
+  - component: {fileID: 888400013}
   m_Layer: 0
   m_Name: redButton
   m_TagString: redButton
@@ -2416,6 +2417,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c2dd8251635942c79ad8a1e3955cd8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &888400013
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888400008}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cdd6986a8e5404a92a16e6266c3e9bf4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &892075584
 GameObject:
   m_ObjectHideFlags: 0
@@ -4608,6 +4628,7 @@ GameObject:
   - component: {fileID: 1893223981}
   - component: {fileID: 1893223983}
   - component: {fileID: 1893223984}
+  - component: {fileID: 1893223985}
   m_Layer: 0
   m_Name: blueButton
   m_TagString: blueButton
@@ -4716,6 +4737,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c2dd8251635942c79ad8a1e3955cd8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1893223985
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893223980}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e917ac4330d154209a1721a7d483a239, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1976996198
 GameObject:
   m_ObjectHideFlags: 0
