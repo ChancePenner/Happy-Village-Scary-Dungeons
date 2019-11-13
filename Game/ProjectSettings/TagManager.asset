@@ -59,3 +59,6 @@ TagManager:
   - name: objects
     uniqueID: 355142713
     locked: 0
+  - name: sidewallsroom2
+    uniqueID: 3451998313
+    locked: 0

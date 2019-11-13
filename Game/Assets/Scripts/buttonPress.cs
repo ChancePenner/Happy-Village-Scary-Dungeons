@@ -27,10 +27,11 @@ public class buttonPress : MonoBehaviour
     {
         if (enemiesNotYetSpawned && redButtonPressed && blueButtonPressed)
         {
+            //spawns two enemies at the specified locations
             Instantiate(Enemy, new Vector3(-4, 10, 0), Quaternion.identity); 
             Instantiate(Enemy, new Vector3(0, 2, 0), Quaternion.identity);           
-
-            enemiesNotYetSpawned = false;
+    
+            enemiesNotYetSpawned = false;    //sets to false so that they don't keep spawning
         }
     }
 
