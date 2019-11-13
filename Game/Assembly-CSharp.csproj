@@ -71,6 +71,7 @@
      <Compile Include="Assets\Scripts\playerHealth.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerMovementV2.cs" />
+     <Compile Include="Assets\Scripts\RoomTransition.cs" />
      <Compile Include="Assets\Scripts\saveData.cs" />
      <Compile Include="Assets\Scripts\SpriteOrderSystem.cs" />
      <Compile Include="Assets\Scripts\Transition.cs" />

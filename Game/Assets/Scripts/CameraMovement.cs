@@ -14,6 +14,7 @@ TeamName: BigSegFaultEnergy
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Collections.LowLevel.Unsafe;
 using UnityEditor;
 using UnityEngine;
 
@@ -21,8 +22,15 @@ public class CameraMovement : MonoBehaviour
 {
     public Transform target;
     public float smoothingSpeed;
-    public Vector2 maxPosition;
-    public Vector2 minPosition;
+    public objectVector[] maxPosition;
+    public objectVector[] minPosition;
+    private int index;    //used to move through the object vector array to change the camera's location as
+                          //the player moves between rooms
+
+    private void Start()
+    {
+        index = 0;    //initialize to 0
+    }
 
     /*
      * @ pre none
@@ -39,14 +47,19 @@ public class CameraMovement : MonoBehaviour
                 transform.position.z);
 
             targetPosition.x = Mathf.Clamp(targetPosition.x,
-                                                minPosition.x,
-                                                maxPosition.x);
+                                                minPosition[index].initial.x,
+                                                maxPosition[index].initial.x);
             targetPosition.y = Mathf.Clamp(targetPosition.y,
-                                                minPosition.y,
-                                                maxPosition.y);
+                                                minPosition[index].initial.y,
+                                                maxPosition[index].initial.y);
             transform.position = Vector3.Lerp(transform.position,
                 targetPosition,
                 smoothingSpeed);
         }
+    }
+
+    public void SetIndex(int newIndex)
+    {
+        index = newIndex;
     }
 }

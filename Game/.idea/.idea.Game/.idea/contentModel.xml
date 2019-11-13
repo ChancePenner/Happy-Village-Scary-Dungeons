@@ -26,6 +26,7 @@
           <e p="playerHealth.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PlayerMovementV2.cs" t="Include" />
+          <e p="RoomTransition.cs" t="Include" />
           <e p="saveData.cs" t="Include" />
           <e p="SpriteOrderSystem.cs" t="Include" />
           <e p="Transition.cs" t="Include" />
