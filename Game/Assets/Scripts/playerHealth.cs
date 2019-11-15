@@ -17,24 +17,34 @@ public class playerHealth : MonoBehaviour
     public Sprite quarterHeart;     //quarter heart sprite
     public Sprite emptyHeart;       //empty heart
     private Animator anim;
+    private float invincibiilityTime;
+    private bool invulnerable;
+    private float invCounter;    //counter for 
 
     private void Start()
     {
         anim = GetComponent<Animator>();
+        invincibiilityTime = 0.4f;        //player to be invincible for 1 second
+        invulnerable = false;
+        invCounter = 0;
     }
 
     public void harmPlayer(int damageAmount)
     {
-        Debug.Log(health);
-        if ((health - damageAmount) <= 0)
+        if (!invulnerable)
         {
-            health = 0;
-            gameOver();
+            if ((health - damageAmount) <= 0)
+            {
+                health = 0;
+                gameOver();
+            }
+            else
+            {
+                health = health - damageAmount;
+            }
+            invulnerable = true;        //take damage, but now you're invulnerable for 1 second
         }
-        else
-        {
-            health = health - damageAmount;
-        }
+
     }
 
     private void gameOver()
@@ -45,6 +55,16 @@ public class playerHealth : MonoBehaviour
     
     void Update()            
     {
+        if (invulnerable)
+        {
+            invCounter += Time.deltaTime;
+            if (invCounter >= invincibiilityTime)
+            {
+                invCounter = 0;
+                invulnerable = false;
+            }
+        }
+        
         if (health > (numOfHearts * 4))        //if the health is greater than the total number of hearts
         {                                      //there are 4 quarters for each heart, so we need to compare to the num of hearts * 4
             health = (numOfHearts * 4);        //the health should just be equal to the total number of hearts
