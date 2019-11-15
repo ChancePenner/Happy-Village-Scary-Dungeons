@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 038827a2f2abf40f0ab12f9106765ba5, type: 3}
   m_Name: TownPos
   m_EditorClassIdentifier: 
-  initial: {x: 449.4889, y: 510.7408}
+  initial: {x: 445.49, y: 511.3}
