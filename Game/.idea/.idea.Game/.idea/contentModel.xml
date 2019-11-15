@@ -19,6 +19,7 @@
           <e p="Thank You!.txt" t="Include" />
         </e>
         <e p="movingObjectSound.cs" t="Include" />
+        <e p="nextRoom.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="ApplicationData.cs" t="Include" />
           <e p="buttonPress.cs" t="Include" />
