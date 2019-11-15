@@ -77,11 +77,11 @@ public class enemyHealth : MonoBehaviour
      */
     private void OnCollisionStay2D(Collision2D other)
     {
-        if(other.gameObject.CompareTag("Player"))
+        if(other.gameObject.CompareTag("Player") && isDead != true)
         {
             Vector2 difference = other.transform.position - transform.position;
             other.transform.position = new Vector2(other.transform.position.x + difference.x, other.transform.position.y + difference.y);
-        }
+        } 
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -100,6 +100,7 @@ public class enemyHealth : MonoBehaviour
      */
     private void DestroyEnemy()
     {
+        enemyStrength = 0;
         Destroy(gameObject);
     }
     
