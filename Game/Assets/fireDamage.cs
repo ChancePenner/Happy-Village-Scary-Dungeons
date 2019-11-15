@@ -14,4 +14,14 @@ public class fireDamage : MonoBehaviour
             other.gameObject.GetComponent<playerHealth>().harmPlayer(fireStrength);
         }
     }
+
+    private void disableCollision()
+    {
+        GetComponent<Collider2D>().enabled = false;
+    }
+    
+    private void enableCollision()
+    {
+        GetComponent<Collider2D>().enabled = true;
+    }
 }
