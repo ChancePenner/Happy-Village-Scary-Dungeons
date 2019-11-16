@@ -20,6 +20,10 @@ public class playerHealth : MonoBehaviour
     private float invincibiilityTime;
     private bool invulnerable;
     private float invCounter;    //counter for 
+    public float flashLength;
+    private bool flashActive;
+    private float flashCounter;
+    private SpriteRenderer playerSprite;
 
     private void Start()
     {
@@ -27,6 +31,7 @@ public class playerHealth : MonoBehaviour
         invincibiilityTime = 0.4f;        //player to be invincible for 1 second
         invulnerable = false;
         invCounter = 0;
+        playerSprite = GetComponent<SpriteRenderer>();
     }
 
     public void harmPlayer(int damageAmount)
@@ -43,6 +48,8 @@ public class playerHealth : MonoBehaviour
                 health = health - damageAmount;
             }
             invulnerable = true;        //take damage, but now you're invulnerable for 1 second
+            flashActive = true;
+            flashCounter = flashLength;
         }
 
     }
@@ -63,6 +70,15 @@ public class playerHealth : MonoBehaviour
                 invCounter = 0;
                 invulnerable = false;
             }
+        }
+
+        if (flashActive)
+        {
+            if (flashCounter < 0)
+            {
+                playerSprite.color = new Color(playerSprite.color.r, playerSprite.color.g, playerSprite.color.b,1f );
+                flashActive = false;
+            } 
         }
         
         if (health > (numOfHearts * 4))        //if the health is greater than the total number of hearts
