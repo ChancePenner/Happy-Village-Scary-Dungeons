@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.PlayerLoop;
 
 public class RoomTransition : MonoBehaviour
 {
@@ -11,8 +12,11 @@ public class RoomTransition : MonoBehaviour
     public GameObject player;
     public objectVector playerLocation;
     private Camera camera;
-    private int index;    //used to move through the object vector array to change the camera's location as
+    private static int index;    //used to move through the object vector array to change the camera's location as
                           //the player moves between rooms
+    public GameObject GameObjectsToDestroy;    //holds the game objects we want to destroy once player leaves that room
+                                                 //since the player can't go back anyway
+    
     private void Start()
     {
         camera = Camera.main;
@@ -26,6 +30,8 @@ public class RoomTransition : MonoBehaviour
             index++;    //update the index so that the camera's new boundaries are related to the next room
             player.GetComponent<Transform>().position = playerLocation.initial;    //teleport player to next room
             camera.GetComponent<CameraMovement>().SetIndex(index);  //sets the camera's new boundary to next room's boundary
+
+            Destroy(GameObjectsToDestroy);
         }
     }
 }
