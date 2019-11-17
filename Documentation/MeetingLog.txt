@@ -155,3 +155,61 @@ Agenda:
 *Track players health between scenes
 *Design portion of the overworld
 *Add main menu scene
+
+Meeting 19:
+Location: Leep2
+11/10/2019 @ 12:00 to 13:30
+Chance, Haonan, Thomas
+Agenda:
+*add Boxes and switches to the room
+*fix health persisting between scenes
+
+Meeting 20:
+Location: Leep2
+11/10/2019 @ 13:30 to 20:10
+Chance, Haonan, Thomas, Markus
+Agenda:
+*Designed a portion of town
+*fix health persisting between scenes
+
+Meeting 21:
+Location: Leep2
+11/11/2019 @ 11:00 12:00
+Chance, Sarah
+Agenda:
+*Add enemies spawn when button pressed
+
+Meeting 21:
+Location: Leep2
+11/12/2019 @ 16:30 to 19:30
+Chance, Thomas
+Agenda:
+*Edit room1
+*Add room2 general layout, collision
+*Add fire animation
+*Add objectvector array to cameramovement
+
+Meeting 22:
+Location: Leep2
+11/15/2019 @ 9:00 to 10:50
+Chance, Thomas, Haonan
+Agenda:
+*Finalize town scene
+
+Meeting 23:
+Location: Leep2
+11/15/2019 @ 16:00 to 17:15
+Chance, Thomas, Markus
+Agenda:
+*Fixed:
+  *enemy spawning
+  *room1 objects to destroy
+
+
+Meeting 24:
+Location: Leep2
+11/16/2019 @ 15:30 to
+Chance, Thomas, Haonan, Sarah
+Agenda:
+*Add and design maze scene
+*Updating gantt chart
