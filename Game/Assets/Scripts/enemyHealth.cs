@@ -100,8 +100,12 @@ public class enemyHealth : MonoBehaviour
      */
     private void DestroyEnemy()
     {
-        enemyStrength = 0;
         Destroy(gameObject);
+    }
+
+    private void deathAnimation()
+    {
+        enemyStrength = 0;
     }
     
     
