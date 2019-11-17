@@ -18,35 +18,35 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  -
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
   m_SortingLayers:
   - name: Default
     uniqueID: 0
@@ -57,9 +57,15 @@ TagManager:
   - name: buttons
     uniqueID: 954219181
     locked: 0
+  - name: Bridge
+    uniqueID: 1362491075
+    locked: 0
   - name: objects
     uniqueID: 355142713
     locked: 0
   - name: sidewallsroom2
     uniqueID: 3451998313
+    locked: 0
+  - name: Building
+    uniqueID: 2743974371
     locked: 0
