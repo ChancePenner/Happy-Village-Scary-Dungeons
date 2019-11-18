@@ -1970,7 +1970,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2929,7 +2929,7 @@ Tilemap:
   - m_RefCount: 4
     m_Data: {fileID: 11400000, guid: 765191ad0796c4b4cb1ae8fbfcfefd07, type: 2}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: eeaa795e26ce04216a496c9928ac4e3d, type: 2}
+    m_Data: {fileID: 11400000, guid: 5d6a002d10b1944c7a2565c4c1cc5a46, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: a9000e57d8afb4dd3a4a8c5e74cd369e, type: 2}
   - m_RefCount: 1
@@ -3003,7 +3003,7 @@ Tilemap:
     m_Data: {fileID: -2338199993500752027, guid: 3f13c7fde0e224dcf97736ed2bf54887,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -5111903023576975284, guid: 3f13c7fde0e224dcf97736ed2bf54887,
+    m_Data: {fileID: -3603859567043496004, guid: 3f13c7fde0e224dcf97736ed2bf54887,
       type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 6200664916755899006, guid: 3f13c7fde0e224dcf97736ed2bf54887,
@@ -106919,6 +106919,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3625484671687448097, guid: 0acda5bf87ca148bb89a7355dc00c09b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3625484671687448102, guid: 0acda5bf87ca148bb89a7355dc00c09b,
         type: 3}
       propertyPath: m_BodyType
@@ -106930,11 +106935,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3625484671687448107, guid: 0acda5bf87ca148bb89a7355dc00c09b,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3625484671687448097, guid: 0acda5bf87ca148bb89a7355dc00c09b,
         type: 3}
       propertyPath: m_Enabled
       value: 0
