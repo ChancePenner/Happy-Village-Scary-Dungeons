@@ -64,6 +64,7 @@
      <Compile Include="Assets\Scripts\buttonPress.cs" />
      <Compile Include="Assets\Scripts\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\checkDoor.cs" />
+     <Compile Include="Assets\Scripts\dropItem.cs" />
      <Compile Include="Assets\Scripts\enemyHealth.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\GlobalControl.cs" />
