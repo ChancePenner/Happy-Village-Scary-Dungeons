@@ -25,9 +25,10 @@ public class RoomTransition : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
+
         if (other.CompareTag("Player") && !other.isTrigger)
         {
-            index++;    //update the index so that the camera's new boundaries are related to the next room
+            index ++;    //update the index so that the camera's new boundaries are related to the next room
             player.GetComponent<Transform>().position = playerLocation.initial;    //teleport player to next room
             camera.GetComponent<CameraMovement>().SetIndex(index);  //sets the camera's new boundary to next room's boundary
 
