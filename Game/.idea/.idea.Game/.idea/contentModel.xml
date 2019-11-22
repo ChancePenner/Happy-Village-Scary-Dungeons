@@ -96,6 +96,7 @@
         <e p="generic-rpg-pack_v0.3_(alpha-release)_vacaroxa" t="Include">
           <e p="release.txt" t="Include" />
         </e>
+        <e p="giveHealth.cs" t="Include" />
         <e p="kenney_rpgaudio" t="Include">
           <e p="License.txt" t="Include" />
         </e>

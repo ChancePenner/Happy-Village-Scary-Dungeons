@@ -212,6 +212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be73524cf24b54dd1b598b91d306b7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initialLoad: 0
 --- !u!4 &224410164 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3625484671687448100, guid: 0acda5bf87ca148bb89a7355dc00c09b,
@@ -4794,6 +4795,11 @@ PrefabInstance:
       propertyPath: playerLocation.y
       value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 8681903281996770773, guid: b87bff3f6e95242eebbb908c43e817c6,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 224410156}
     - target: {fileID: 4862603205860916915, guid: b87bff3f6e95242eebbb908c43e817c6,
         type: 3}
       propertyPath: m_IsTrigger

@@ -58,6 +58,7 @@
   <ItemGroup>
      <Compile Include="Assets\buttonSound.cs" />
      <Compile Include="Assets\fireDamage.cs" />
+     <Compile Include="Assets\giveHealth.cs" />
      <Compile Include="Assets\movingObjectSound.cs" />
      <Compile Include="Assets\nextRoom.cs" />
      <Compile Include="Assets\Scripts\ApplicationData.cs" />

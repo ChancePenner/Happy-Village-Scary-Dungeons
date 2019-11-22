@@ -40,6 +40,7 @@ public class Transition : MonoBehaviour
             playerSave.playerData();
             playerTemp.initial = playerLocation;
             SceneManager.LoadScene(loadScene);
+            player.GetComponent<Transform>().position = playerLocation;
 //            SceneManager.SetActiveScene(SceneManager.GetSceneByName(loadScene));
             playerSave.moveInventory();
         }

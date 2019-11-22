@@ -4549,7 +4549,7 @@ PrefabInstance:
     - target: {fileID: 4514829454149730964, guid: b87bff3f6e95242eebbb908c43e817c6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 73.77
+      value: 72.12
       objectReference: {fileID: 0}
     - target: {fileID: 4514829454149730964, guid: b87bff3f6e95242eebbb908c43e817c6,
         type: 3}
@@ -4600,23 +4600,28 @@ PrefabInstance:
         type: 3}
       propertyPath: playerTemp
       value: 
-      objectReference: {fileID: 11400000, guid: f6dbd43aee27444dd8105a4ae1419623,
+      objectReference: {fileID: 11400000, guid: 68467be64e125498eb43ea4ee93942a7,
         type: 2}
     - target: {fileID: 8681903281996770773, guid: b87bff3f6e95242eebbb908c43e817c6,
         type: 3}
       propertyPath: playerLocation.x
-      value: 0
+      value: 452.3
       objectReference: {fileID: 0}
     - target: {fileID: 8681903281996770773, guid: b87bff3f6e95242eebbb908c43e817c6,
         type: 3}
       propertyPath: playerLocation.y
-      value: 64
+      value: 545.1
       objectReference: {fileID: 0}
     - target: {fileID: 8681903281996770773, guid: b87bff3f6e95242eebbb908c43e817c6,
         type: 3}
       propertyPath: loadScene
       value: Town
       objectReference: {fileID: 0}
+    - target: {fileID: 8681903281996770773, guid: b87bff3f6e95242eebbb908c43e817c6,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 279572102}
     - target: {fileID: 18558129407087815, guid: b87bff3f6e95242eebbb908c43e817c6,
         type: 3}
       propertyPath: loadScene
