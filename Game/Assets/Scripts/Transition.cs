@@ -37,13 +37,13 @@ public class Transition : MonoBehaviour
         if (other.CompareTag("Player") && !other.isTrigger)
         {
             Debug.Log("TRANSITIONING!");
-            playerSave = new saveData();
-            playerSave.playerData();
+//            playerSave = new saveData();
+//            playerSave.playerData();
             playerTemp.initial = playerLocation;
             SceneManager.LoadScene(loadScene);
             player.GetComponent<Transform>().position = playerLocation;
 //            SceneManager.SetActiveScene(SceneManager.GetSceneByName(loadScene));
-            playerSave.moveInventory();
+//            playerSave.moveInventory();
         }
     }
 }
