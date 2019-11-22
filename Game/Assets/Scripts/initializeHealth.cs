@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class initializeHealth : MonoBehaviour
 {
-    public bool initialLoad;
+    static bool initialLoad = true;
     // Start is called before the first frame update
     void Start()
     {
-        initialLoad = true;
-        //initialLoad = gameObject.GetComponent<saveData>().initLoad;
-        
-        if (initialLoad == true)
+
+        if (initialLoad)
         {
             gameObject.GetComponent<playerHealth>().setHealth(12);
             gameObject.GetComponent<playerHealth>().setNumOfHearts(3);   
         }
+
+        initialLoad = false;
     }
 
     public bool getInitialLoad()

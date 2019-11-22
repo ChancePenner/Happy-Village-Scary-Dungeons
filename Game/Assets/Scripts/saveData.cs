@@ -18,8 +18,6 @@ using UnityEngine;
 public class saveData : MonoBehaviour
 {
     public bool hasSword;
-    public bool initLoad;
-
     /*
      * @ pre none
      * @ param none
@@ -30,10 +28,7 @@ public class saveData : MonoBehaviour
     {
         if (GameObject.FindGameObjectWithTag("Player") != null)
         {
-            initLoad = false;
-            
             hasSword = GameObject.FindGameObjectWithTag("Player").GetComponent<inventory>().ActiveSword();
-            GameObject.FindGameObjectWithTag("Player").GetComponent<initializeHealth>().initialLoad = initLoad;   //setting the load to false so town doesn't reinitialize the health
         }
     }
 

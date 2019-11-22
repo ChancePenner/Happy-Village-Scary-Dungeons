@@ -88,6 +88,7 @@ public class enemyHealth : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            Debug.Log("GETTING HIT");
             other.gameObject.GetComponent<playerHealth>().harmPlayer(enemyStrength);
         }
     }

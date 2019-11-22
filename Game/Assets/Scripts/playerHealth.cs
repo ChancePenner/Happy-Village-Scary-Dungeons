@@ -47,9 +47,9 @@ public class playerHealth : MonoBehaviour
             {
                 health = health - damageAmount;
             }
-            invulnerable = true;        //take damage, but now you're invulnerable for 1 second
-            flashActive = true;
-            flashCounter = flashLength;
+            //invulnerable = true;        //take damage, but now you're invulnerable for 1 second
+//            flashActive = true;
+//            flashCounter = flashLength;
         }
 
     }
