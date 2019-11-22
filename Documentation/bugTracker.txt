@@ -1,0 +1,7 @@
+Bug tracker
+
+Kept sword after finishing tutorial dungeon???
+Have sword as soon as entering tutorial dungeon
+HEARTS NOT SAVING AFTER TUTORIAL DUNGEON
+NEED CHANCE TO REMOVE CHEST FROM DUNGEON 3
+WILL NEED TO ADD TRANSITION BACK TO TOWN/END GAME AFTER FINAL BOSS
