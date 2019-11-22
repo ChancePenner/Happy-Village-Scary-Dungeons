@@ -14,16 +14,13 @@ public class giveHealth : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log(health);
-            if (health <= 36) //health cannot go past 40, 4 health * 10 hearts, 40 - 4 health = 36
-            {
-                health += 4;
-                numOfHearts++;
+            health += 4;
 
-                other.gameObject.GetComponent<playerHealth>().setHealth(health);
-                other.gameObject.GetComponent<playerHealth>().setNumOfHearts(numOfHearts);
-            }
+            other.gameObject.GetComponent<playerHealth>().setHealth(health);
+            other.gameObject.GetComponent<playerHealth>().setNumOfHearts(numOfHearts);
         }
 
         Destroy(gameObject);        //destroy the heart
     }
+    
 }

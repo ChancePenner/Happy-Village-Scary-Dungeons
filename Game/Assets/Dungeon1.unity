@@ -200,19 +200,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 410080324}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &224410157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 224410156}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be73524cf24b54dd1b598b91d306b7a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  initialLoad: 0
 --- !u!4 &224410164 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3625484671687448100, guid: 0acda5bf87ca148bb89a7355dc00c09b,
@@ -791,6 +778,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 580780172950738421, guid: 0acda5bf87ca148bb89a7355dc00c09b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3625484671687448099, guid: 0acda5bf87ca148bb89a7355dc00c09b,
         type: 3}
       propertyPath: m_Name
@@ -919,7 +911,7 @@ PrefabInstance:
     - target: {fileID: 3625484671687448101, guid: 0acda5bf87ca148bb89a7355dc00c09b,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3625484671687448101, guid: 0acda5bf87ca148bb89a7355dc00c09b,
         type: 3}

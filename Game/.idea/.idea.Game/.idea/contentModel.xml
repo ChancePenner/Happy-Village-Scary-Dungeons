@@ -93,6 +93,7 @@
         </e>
         <e p="buttonSound.cs" t="Include" />
         <e p="fireDamage.cs" t="Include" />
+        <e p="firstLoad.cs" t="Include" />
         <e p="generic-rpg-pack_v0.3_(alpha-release)_vacaroxa" t="Include">
           <e p="release.txt" t="Include" />
         </e>

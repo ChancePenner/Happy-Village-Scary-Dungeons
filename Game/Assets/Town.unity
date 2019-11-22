@@ -132,6 +132,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 580780172950738421, guid: 0acda5bf87ca148bb89a7355dc00c09b,
+        type: 3}
+      propertyPath: initialLoad
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 580780172950738421, guid: 0acda5bf87ca148bb89a7355dc00c09b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3625484671687448100, guid: 0acda5bf87ca148bb89a7355dc00c09b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -255,7 +265,7 @@ PrefabInstance:
     - target: {fileID: 3625484671687448101, guid: 0acda5bf87ca148bb89a7355dc00c09b,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3625484671687448101, guid: 0acda5bf87ca148bb89a7355dc00c09b,
         type: 3}
@@ -271,7 +281,7 @@ PrefabInstance:
     - target: {fileID: 3625484671687448096, guid: 0acda5bf87ca148bb89a7355dc00c09b,
         type: 3}
       propertyPath: speed
-      value: 4
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3625484671687448097, guid: 0acda5bf87ca148bb89a7355dc00c09b,
         type: 3}
@@ -279,7 +289,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 3625484671687448097, guid: 0acda5bf87ca148bb89a7355dc00c09b, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 0acda5bf87ca148bb89a7355dc00c09b, type: 3}
 --- !u!1 &25717758
 GameObject:
@@ -22985,19 +22995,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 11028672}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &579459301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 579459300}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be73524cf24b54dd1b598b91d306b7a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  initialLoad: 1
 --- !u!1 &643396448
 GameObject:
   m_ObjectHideFlags: 0
@@ -107126,7 +107123,7 @@ PrefabInstance:
     - target: {fileID: 3625484671687448101, guid: 0acda5bf87ca148bb89a7355dc00c09b,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3625484671687448101, guid: 0acda5bf87ca148bb89a7355dc00c09b,
         type: 3}
@@ -107174,6 +107171,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3625484671687448103, guid: 0acda5bf87ca148bb89a7355dc00c09b,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3625484671687448103, guid: 0acda5bf87ca148bb89a7355dc00c09b,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 3625484671687448103, guid: 0acda5bf87ca148bb89a7355dc00c09b,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.1875
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3625484671687448097, guid: 0acda5bf87ca148bb89a7355dc00c09b, type: 3}
