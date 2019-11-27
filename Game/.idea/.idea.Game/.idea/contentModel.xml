@@ -126,6 +126,7 @@
           <e p="playerHealth.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PlayerMovementV2.cs" t="Include" />
+          <e p="portal.cs" t="Include" />
           <e p="RoomTransition.cs" t="Include" />
           <e p="saveData.cs" t="Include" />
           <e p="SpriteOrderSystem.cs" t="Include" />
@@ -219,6 +220,6 @@
       <e p="Unity.2D.Tilemap.Extras.Editor.csproj" t="IncludeRecursive" />
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_Game.-354066957.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_Game.1935445898.00" t="ExcludeRecursive" />
   </component>
 </project>

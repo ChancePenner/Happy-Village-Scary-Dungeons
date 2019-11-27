@@ -16,10 +16,10 @@ sceneSetups:
   isActive: 0
   isSubScene: 0
 - path: Assets/Town.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
-- path: Assets/Scripts/mainDungeon.unity
   isLoaded: 0
   isActive: 0
+  isSubScene: 0
+- path: Assets/Scripts/mainDungeon.unity
+  isLoaded: 1
+  isActive: 1
   isSubScene: 0
