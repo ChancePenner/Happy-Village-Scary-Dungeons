@@ -81,6 +81,7 @@
      <Compile Include="Assets\Scripts\portal.cs" />
      <Compile Include="Assets\Scripts\RoomTransition.cs" />
      <Compile Include="Assets\Scripts\saveData.cs" />
+     <Compile Include="Assets\Scripts\spikeDamage.cs" />
      <Compile Include="Assets\Scripts\SpriteOrderSystem.cs" />
      <Compile Include="Assets\Scripts\Transition.cs" />
      <Compile Include="Assets\Scripts\UpdateLayer.cs" />

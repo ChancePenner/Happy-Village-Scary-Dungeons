@@ -13,7 +13,7 @@ public class giveHealth : MonoBehaviour
         
         if (other.CompareTag("Player"))
         {
-            Debug.Log(health);
+            //Debug.Log(health);
             health += 4;
 
             other.gameObject.GetComponent<playerHealth>().setHealth(health);

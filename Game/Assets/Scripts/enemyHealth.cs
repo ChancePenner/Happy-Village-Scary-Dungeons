@@ -107,8 +107,6 @@ public class enemyHealth : MonoBehaviour
     private void deathAnimation()
     {
         enemyStrength = 0;
-        Debug.Log("enemy Strength: ");
-        Debug.Log(enemyStrength);
     }
     
     

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8096132492028500392}
   - component: {fileID: 8096132492028500389}
   - component: {fileID: 3949824479640500956}
+  - component: {fileID: -5095608531285045054}
   m_Layer: 0
   m_Name: Bat1
   m_TagString: Enemy1
@@ -72,7 +73,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 355142713
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 10d3542e0fa7840b6816291ddd5cd5a9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -180,3 +181,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1.8
   stoppingDistance: 0.5
+--- !u!114 &-5095608531285045054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8096132492028500397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 950df2e2b05c24e1196e976a0daf0e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 2684816623587618137, guid: b973dcf9de63b49ebb5a4c3a63f1c4f3, type: 3}

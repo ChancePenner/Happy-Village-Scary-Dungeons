@@ -129,6 +129,7 @@
           <e p="portal.cs" t="Include" />
           <e p="RoomTransition.cs" t="Include" />
           <e p="saveData.cs" t="Include" />
+          <e p="spikeDamage.cs" t="Include" />
           <e p="SpriteOrderSystem.cs" t="Include" />
           <e p="Transition.cs" t="Include" />
           <e p="UpdateLayer.cs" t="Include" />
