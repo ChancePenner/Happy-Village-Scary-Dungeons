@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Dungeon3.unity
     guid: 7d40ad78e08664be99563bc83d9cc379
+  - enabled: 1
+    path: Assets/menu.unity
+    guid: 8ac81fff1f1b446188d18b0fff321087
+  - enabled: 1
+    path: Assets/Town.unity
+    guid: aaa6789505db8402db4b0aca935bdaaf
   m_configObjects: {}
