@@ -92,6 +92,7 @@
           </e>
         </e>
         <e p="buttonSound.cs" t="Include" />
+        <e p="enableSpikes.cs" t="Include" />
         <e p="fireDamage.cs" t="Include" />
         <e p="firstLoad.cs" t="Include" />
         <e p="generic-rpg-pack_v0.3_(alpha-release)_vacaroxa" t="Include">
@@ -131,6 +132,7 @@
           <e p="RoomTransition.cs" t="Include" />
           <e p="saveData.cs" t="Include" />
           <e p="spikeDamage.cs" t="Include" />
+          <e p="spikesAllEnemiesDead.cs" t="Include" />
           <e p="SpriteOrderSystem.cs" t="Include" />
           <e p="Transition.cs" t="Include" />
           <e p="UpdateLayer.cs" t="Include" />

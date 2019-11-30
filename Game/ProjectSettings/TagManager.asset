@@ -15,6 +15,7 @@ TagManager:
   - door
   - Fire
   - heartDrop
+  - Enemy
   layers:
   - Default
   - TransparentFX
