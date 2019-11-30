@@ -61,8 +61,6 @@ public class enemyButtonPress : MonoBehaviour
         {
             if(other.gameObject.CompareTag("Enemy1"))    //once enemy steps off button
             {
-                doorAnim.SetBool("allEnemiesDead", false); //closes the door
-                Physics2D.IgnoreCollision(player.GetComponent<Collider2D>(), door.GetComponent<Collider2D>(), false);    //enables the door collision so player cannot pass through
                 anim.SetBool("isRedButtonDown", false);
                 buttonPressed = false;
                 buttonClick.PlayOneShot(buttonAudio);
