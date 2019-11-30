@@ -44,7 +44,7 @@ public class spikesAllEnemiesDead : MonoBehaviour
      */
     void Update() // Update is called once per frame
     {
-        enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        enemies = GameObject.FindGameObjectsWithTag("Enemy"); //MAKE SURE TO TAG ENEMY AS "ENEMY"
         
         if (enemies.Length > 0)
         {
