@@ -8,19 +8,23 @@ public class giveHealth : MonoBehaviour
     private int numOfHearts;
     public void OnTriggerEnter2D(Collider2D other)
     {
-        health = other.gameObject.GetComponent<playerHealth>().getHealth();
-        numOfHearts = other.gameObject.GetComponent<playerHealth>().getNumOfHearts();
+//        health = other.gameObject.GetComponent<playerHealth>().getHealth();
+//        numOfHearts = other.gameObject.GetComponent<playerHealth>().getNumOfHearts();
         
         if (other.CompareTag("Player"))
         {
+            health = other.gameObject.GetComponent<playerHealth>().getHealth();
+            numOfHearts = other.gameObject.GetComponent<playerHealth>().getNumOfHearts();
             //Debug.Log(health);
             health += 4;
 
             other.gameObject.GetComponent<playerHealth>().setHealth(health);
             other.gameObject.GetComponent<playerHealth>().setNumOfHearts(numOfHearts);
+            Destroy(gameObject);        //destroy the heart
+
         }
 
-        Destroy(gameObject);        //destroy the heart
+//        Destroy(gameObject);        //destroy the heart
     }
     
 }
