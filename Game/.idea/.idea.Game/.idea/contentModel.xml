@@ -115,6 +115,7 @@
           <e p="CameraMovement.cs" t="Include" />
           <e p="checkDoor.cs" t="Include" />
           <e p="dropItem.cs" t="Include" />
+          <e p="enemyButtonPress.cs" t="Include" />
           <e p="enemyHealth.cs" t="Include" />
           <e p="EnemyMovement.cs" t="Include" />
           <e p="GlobalControl.cs" t="Include" />
