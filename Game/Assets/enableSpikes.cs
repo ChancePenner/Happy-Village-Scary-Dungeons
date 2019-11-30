@@ -5,19 +5,17 @@ using UnityEngine;
 public class enableSpikes : MonoBehaviour
 {
     public GameObject player;
-    private Animator animator;
+    public Animator spike1;
+    public Animator spike2;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        animator = GetComponent<Animator>();
-    }
-
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other == player)
+        if (other.gameObject.CompareTag("Player"))
         {
-            animator.SetBool("spawningEnemies", true);
+            spike1.SetBool("spawningEnemies", true);
+            spike2.SetBool("spawningEnemies", true);
         }
     }
    
