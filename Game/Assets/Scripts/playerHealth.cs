@@ -151,7 +151,12 @@ public class playerHealth : MonoBehaviour
     {
         health = healthAmount;
     }
-
+    
+    public int getHealth()
+    {
+        return health;
+    }
+    
     public void setNumOfHearts(int numOfHeartsAmount)
     {
         numOfHearts = numOfHeartsAmount;
