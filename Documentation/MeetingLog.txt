@@ -205,11 +205,77 @@ Agenda:
   *enemy spawning
   *room1 objects to destroy
 
-
 Meeting 24:
 Location: Leep2
-11/16/2019 @ 15:30 to
+11/16/2019 @ 15:30 to 17:00
 Chance, Thomas, Haonan, Sarah
 Agenda:
 *Add and design maze scene
 *Updating gantt chart
+
+Meeting 25:
+Location: Leep2
+11/16/2019 @ 17:00 to 18:30
+Chance, Thomas, Haonan
+Agenda:
+*Add and design maze scene
+*Add wall collision
+
+Meeting 26:
+Location: Leep2
+11/17/2019 @ 13:50 to 15:00
+Chance, Thomas, Haonan, Markus
+Agenda:
+*Merge Town with Master
+
+Meeting 27:
+Location: Eaton
+11/20/2019 @ 9:00 to 10:50
+Chance, Thomas, Haonan, Sarah, Markus
+Agenda:
+*Finish menu scene
+*Work on room 3 wall collision
+
+Meeting 28:
+Location: Leep2
+11/22/2019 @ 9:00 to 10:50
+Chance, Thomas, Haonan, Sarah
+Agenda:
+*Fix health transferring between scenes
+*Finish health drop functionality
+*Create bug tracker
+
+Meeting 29:
+Location: Leep2
+11/30/19 @ 15:00 to 19:30
+Chance, Haonan
+Agenda:
+*Work on room 5
+*Work on test scene
+*Merge town and Master
+*Add respawn
+
+Meeting 30:
+Location: Leep2
+12/1/19 @ 10:30 to 14:00
+Chance, Haonan, Thomas
+Agenda:
+*Finish room 5
+*Finish testing
+*Balance enemy damage
+*Balance spike damage
+*Add to be continued scene
+
+Meeting 30:
+Location: Leep2
+12/1/19 @ 14:00 to 20:00
+Chance, Haonan, Thomas, Sarah
+Agenda:
+*Finish documentation
+*Finish UML
+*Finish merging
+*Finish Essays
+*Finish bug list
+*Update Gantt Chart
+*Finish Product Backlog
+*Update meeting log
