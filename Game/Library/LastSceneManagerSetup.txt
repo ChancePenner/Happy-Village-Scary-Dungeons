@@ -23,7 +23,11 @@ sceneSetups:
   isLoaded: 0
   isActive: 0
   isSubScene: 0
-- path: Assets/TestScene.unity
+- path: Assets/toBeContinued.unity
   isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/TestScene.unity
+  isLoaded: 1
   isActive: 0
   isSubScene: 0
