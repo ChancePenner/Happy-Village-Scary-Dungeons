@@ -1693,12 +1693,12 @@ PrefabInstance:
     - target: {fileID: 2075456032494961824, guid: 03302c7dd84ca4f06a3f1acfbb1a9075,
         type: 3}
       propertyPath: enemy_health
-      value: 16
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2075456032494961824, guid: 03302c7dd84ca4f06a3f1acfbb1a9075,
         type: 3}
       propertyPath: enemyStrength
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2075456032494961837, guid: 03302c7dd84ca4f06a3f1acfbb1a9075,
         type: 3}

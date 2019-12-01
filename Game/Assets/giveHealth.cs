@@ -13,13 +13,12 @@ public class giveHealth : MonoBehaviour
         
         if (other.CompareTag("Player"))
         {
-            health = other.gameObject.GetComponent<playerHealth>().getHealth();
-            numOfHearts = other.gameObject.GetComponent<playerHealth>().getNumOfHearts();
+            other.GetComponent<playerHealth>().giveHealth(4);
             //Debug.Log(health);
-            health += 4;
+//            health += 4;
 
-            other.gameObject.GetComponent<playerHealth>().setHealth(health);
-            other.gameObject.GetComponent<playerHealth>().setNumOfHearts(numOfHearts);
+//            other.gameObject.GetComponent<playerHealth>().setHealth(health);
+//            other.gameObject.GetComponent<playerHealth>().setNumOfHearts(numOfHearts);
             Destroy(gameObject);        //destroy the heart
 
         }

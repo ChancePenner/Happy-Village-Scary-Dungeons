@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 038827a2f2abf40f0ab12f9106765ba5, type: 3}
   m_Name: room5MaxCam
   m_EditorClassIdentifier: 
-  initial: {x: 2, y: 343}
+  initial: {x: 2, y: 346.28}

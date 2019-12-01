@@ -62,7 +62,7 @@ public class enemyHealth : MonoBehaviour
         if(other.CompareTag("swordHitbox") && enemy_health > 0.0)
         {
             enemy_health -= 1.0;
-            Debug.Log(enemy_health);
+           // Debug.Log(enemy_health);
 
             Vector2 difference = transform.position - other.transform.position;
             transform.position = new Vector2(transform.position.x + difference.x, transform.position.y + difference.y);
