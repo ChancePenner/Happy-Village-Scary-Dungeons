@@ -4,12 +4,15 @@ using System.Collections.Generic;
 using System.Xml.Schema;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class playerHealth : MonoBehaviour
 {
     static int health;            //will be decreased based on enemy strength
     static int numOfHearts;       //current max hearts the player has
-    
+    public string respawnLocation;
+
     public Image[] hearts;        //images array to hold the total hearts for the player
     public Sprite fullHeart;      //full heart sprite
     public Sprite threeFourthsHeart;        //three quarter heart sprite
@@ -56,8 +59,18 @@ public class playerHealth : MonoBehaviour
 
     private void gameOver()
     {
+        GetComponent<Collider2D>().enabled = false;
+
         gameObject.GetComponent<PlayerMovement>().speed = 0;    //player cannot move once dead
         anim.SetBool("playerDead", true);           //set the animator playerDead to true to trigger death animation
+        
+    }
+
+    public void respawn()
+    {
+        SceneManager.LoadScene(respawnLocation);
+        setHealth(numOfHearts * 4);
+        GetComponent<Collider2D>().enabled = true;
     }
     
     void Update()            
@@ -161,14 +174,14 @@ public class playerHealth : MonoBehaviour
     {
         return health;
     }
-    
-    public void giveHealth(int healthAmount)
-    {
-        health += healthAmount;
-    }
-    
+
     public int getNumOfHearts()
     {
         return numOfHearts;
+    }
+
+    public void giveHealth(int healthAmount)
+    {
+        health += healthAmount;
     }
 }
