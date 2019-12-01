@@ -1,5 +1,6 @@
 /**
-KU EECS 448 project 3
+Happy Village, Scary Dungeons
+KU EECS 448 project 4
 TeamName: BigSegFaultEnergy
   * \Author: Chance Penner
   * \Author: Markus Becerra
@@ -7,9 +8,8 @@ TeamName: BigSegFaultEnergy
   * \Author: Thomas Gardner
   * \Author: Haonan Hu
   * \File:	 Transition.cs
-  * \Date:   11/3/2019
-  * \Brief:  This script in charge of scene transition function
- **/
+  * \Date:   12/01/2019
+*/
 
 using System;
 using UnityEngine;
@@ -36,14 +36,9 @@ public class Transition : MonoBehaviour
     {
         if (other.CompareTag("Player") && !other.isTrigger)
         {
-            Debug.Log("TRANSITIONING!");
-//            playerSave = new saveData();
-//            playerSave.playerData();
             playerTemp.initial = playerLocation;
             SceneManager.LoadScene(loadScene);
             player.GetComponent<Transform>().position = playerLocation;
-//            SceneManager.SetActiveScene(SceneManager.GetSceneByName(loadScene));
-//            playerSave.moveInventory();
         }
     }
 }

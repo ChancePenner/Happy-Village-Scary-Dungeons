@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['tagname_160',['tagName',['../classopen_chest.html#a5cd4089bd4fdca65fa77c5a1f5a5a72e',1,'openChest']]],
-  ['target_161',['target',['../class_camera_movement.html#a260db5e549bc85e522e0c165e425fac6',1,'CameraMovement.target()'],['../class_enemy_movement.html#a5a6dd576997c325d0295a753ab1238a3',1,'EnemyMovement.target()']]]
+  ['player_312',['Player',['../classopen_chest.html#aa9a6545c03122c4d108c410466ee4141',1,'openChest.Player()'],['../classtest.html#a7feab1d1dbb4540efef497d3072f4630',1,'test.Player()'],['../classcheck_door.html#aec67b304186334de11b3893f828ea792',1,'checkDoor.player()'],['../classenemy_button_press.html#adf223af174f1e96b42445111f18d918b',1,'enemyButtonPress.player()'],['../classhouse_transition.html#a0d5d96bb9a7ebddfb4e9ac05677c7509',1,'houseTransition.player()'],['../classmain_menu.html#a43e345d67bf1e2cce4a21657e39943b2',1,'mainMenu.player()'],['../class_room_transition.html#a9109734b1a13727d7e7842160294677a',1,'RoomTransition.player()'],['../classspikes_all_enemies_dead.html#a2b57e3dd8927a014c8d1f34de7fe0aa3',1,'spikesAllEnemiesDead.player()'],['../classtown_to_house_transition.html#acefa25f35be8364a0efc86bfe431fb3a',1,'townToHouseTransition.player()'],['../class_transition.html#a71bc0bec1acf8300dc1485edfd9943b0',1,'Transition.player()']]],
+  ['playerlocation_313',['playerLocation',['../classhouse_transition.html#a81b1fa820e5784729b02b79e82035c17',1,'houseTransition.playerLocation()'],['../class_room_transition.html#a55d8e4ad23764192f41e387910e8b830',1,'RoomTransition.playerLocation()'],['../classtown_to_house_transition.html#a7883a19d6d62a7ff0840ee82cd9f315e',1,'townToHouseTransition.playerLocation()'],['../class_transition.html#a663c98aa93c93bfce1c19ef6eb17c387',1,'Transition.playerLocation()']]],
+  ['playersave_314',['playerSave',['../class_transition.html#a72bb35858020d08c5096d952b750199b',1,'Transition']]],
+  ['playersprite_315',['playerSprite',['../classplayer_health.html#aaa939479e29d0a083fcc290826294ee7',1,'playerHealth']]],
+  ['playertemp_316',['playerTemp',['../class_transition.html#aed0c54981ed38abca10680c925fdd0ae',1,'Transition']]]
 ];

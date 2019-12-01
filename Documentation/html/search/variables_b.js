@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['rb_155',['rb',['../class_player_movement_v2.html#add34fc557f3016b476fd5ffd52039f6e',1,'PlayerMovementV2']]]
+  ['numenemies_308',['numEnemies',['../classcheck_door.html#adcfec07ba2aaff783fd3577c238818d5',1,'checkDoor.numEnemies()'],['../classspikes_all_enemies_dead.html#a880826b0c6970ecdd3bc47b17308a6b0',1,'spikesAllEnemiesDead.numEnemies()']]],
+  ['numofhearts_309',['numOfHearts',['../classplayer_health.html#adfbde04dd5aeb7377e49c3384b8ac436',1,'playerHealth']]]
 ];

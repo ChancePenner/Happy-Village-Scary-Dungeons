@@ -56,32 +56,31 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\buttonSound.cs" />
-     <Compile Include="Assets\enableSpikes.cs" />
-     <Compile Include="Assets\fireDamage.cs" />
-     <Compile Include="Assets\firstLoad.cs" />
-     <Compile Include="Assets\giveHealth.cs" />
-     <Compile Include="Assets\movingObjectSound.cs" />
-     <Compile Include="Assets\nextRoom.cs" />
      <Compile Include="Assets\Scripts\ApplicationData.cs" />
      <Compile Include="Assets\Scripts\buttonPress.cs" />
+     <Compile Include="Assets\Scripts\buttonSound.cs" />
      <Compile Include="Assets\Scripts\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\checkDoor.cs" />
      <Compile Include="Assets\Scripts\dropItem.cs" />
+     <Compile Include="Assets\Scripts\enableSpikes.cs" />
      <Compile Include="Assets\Scripts\enemyButtonPress.cs" />
      <Compile Include="Assets\Scripts\enemyHealth.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\Exit.cs" />
+     <Compile Include="Assets\Scripts\fireDamage.cs" />
+     <Compile Include="Assets\Scripts\firstLoad.cs" />
+     <Compile Include="Assets\Scripts\giveHealth.cs" />
      <Compile Include="Assets\Scripts\GlobalControl.cs" />
      <Compile Include="Assets\Scripts\houseTransition.cs" />
      <Compile Include="Assets\Scripts\initializeHealth.cs" />
      <Compile Include="Assets\Scripts\inventory.cs" />
      <Compile Include="Assets\Scripts\mainMenu.cs" />
+     <Compile Include="Assets\Scripts\movingObjectSound.cs" />
+     <Compile Include="Assets\Scripts\nextRoom.cs" />
      <Compile Include="Assets\Scripts\objectVector.cs" />
      <Compile Include="Assets\Scripts\openChest.cs" />
      <Compile Include="Assets\Scripts\playerHealth.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\PlayerMovementV2.cs" />
      <Compile Include="Assets\Scripts\portal.cs" />
      <Compile Include="Assets\Scripts\RoomTransition.cs" />
      <Compile Include="Assets\Scripts\saveData.cs" />

@@ -1,5 +1,6 @@
 ﻿/**
-KU EECS 448 project 3
+Happy Village, Scary Dungeons
+KU EECS 448 project 4
 TeamName: BigSegFaultEnergy
   * \Author: Chance Penner
   * \Author: Markus Becerra
@@ -7,10 +8,8 @@ TeamName: BigSegFaultEnergy
   * \Author: Thomas Gardner
   * \Author: Haonan Hu
   * \File:	 checkDoor.cs
-  * \Date:   11/3/2019
-  * \Brief:  This script makes door open after you kill all mobs spawn in the scene
- **/
-
+  * \Date:   12/01/2019
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

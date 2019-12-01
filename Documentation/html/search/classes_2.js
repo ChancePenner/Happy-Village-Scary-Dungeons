@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['globalcontrol_87',['GlobalControl',['../class_global_control.html',1,'']]]
+  ['cameramovement_169',['CameraMovement',['../class_camera_movement.html',1,'']]],
+  ['checkdoor_170',['checkDoor',['../classcheck_door.html',1,'']]]
 ];

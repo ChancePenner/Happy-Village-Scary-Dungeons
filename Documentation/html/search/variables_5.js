@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['initial_140',['initial',['../classobject_vector.html#a0895fed14890aa094cdc241e897270cf',1,'objectVector']]],
-  ['instance_141',['Instance',['../class_global_control.html#a65526c5fb1b3024d01df0e92ad34704e',1,'GlobalControl']]],
-  ['isdead_142',['isDead',['../classenemy_health.html#a2db5c3f2f095dfe7f639ac632e6b3f77',1,'enemyHealth']]],
-  ['item_143',['Item',['../classopen_chest.html#af8e1da292ffb2fbb57a72eb44d34fade',1,'openChest']]]
+  ['flashactive_284',['flashActive',['../classplayer_health.html#aaa22d0ca3ae9c94cb6da5a8b44f229c7',1,'playerHealth']]],
+  ['flashcounter_285',['flashCounter',['../classplayer_health.html#a336a85d3a3a8f64792f7515c961a8a2c',1,'playerHealth']]],
+  ['flashlength_286',['flashLength',['../classplayer_health.html#af829e04ccbb8dbc22989497c909e6cd6',1,'playerHealth']]],
+  ['fullheart_287',['fullHeart',['../classplayer_health.html#a6fd4215cc460da036ae710c6d382dd6b',1,'playerHealth']]]
 ];

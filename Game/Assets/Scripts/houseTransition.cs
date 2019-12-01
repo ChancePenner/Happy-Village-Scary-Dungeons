@@ -1,4 +1,16 @@
-﻿using System;
+﻿/**
+Happy Village, Scary Dungeons
+KU EECS 448 project 4
+TeamName: BigSegFaultEnergy
+  * \Author: Chance Penner
+  * \Author: Markus Becerra
+  * \Author: Sarah Scott
+  * \Author: Thomas Gardner
+  * \Author: Haonan Hu
+  * \File:	 houseTransition.cs
+  * \Date:   12/01/2019
+*/
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,18 +28,30 @@ public class houseTransition : MonoBehaviour
     //the player moves between rooms
     //since the player can't go back anyway
     
+    /*
+     * @ pre none
+     * @ param none
+     * @ post start get call after scripts get triggered
+     * @ return none
+     */
     private void Start()
     {
         camera = Camera.main;
         index = 1;
     }
 
+    /*
+     * @ pre none
+     * @ param a 2d collider
+     * @ post update the index so that the camera's new boundaries are related to the town
+     * @ return none
+     */
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && !other.isTrigger)
         {
             
-            index = 0;    //update the index so that the camera's new boundaries are related to the town
+            index = 0;   
             player.GetComponent<Transform>().position = playerLocation.initial;    //teleport player to next room
             camera.GetComponent<CameraMovement>().SetIndex(index);  //sets the camera's new boundary to next room's boundary
 
