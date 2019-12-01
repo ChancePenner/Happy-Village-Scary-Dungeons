@@ -22,12 +22,12 @@ for the JavaScript code in this file
 */
 var NAVTREE =
 [
-  [ "Project3", "index.html", [
-    [ "Data Structures", "annotated.html", [
-      [ "Data Structures", "annotated.html", "annotated_dup" ],
-      [ "Data Structure Index", "classes.html", null ],
+  [ "Happy Village, Scary Dungeon Scripts", "index.html", [
+    [ "Classes", "annotated.html", [
+      [ "Class List", "annotated.html", "annotated_dup" ],
+      [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Data Fields", "functions.html", [
+      [ "Class Members", "functions.html", [
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ]
@@ -35,8 +35,9 @@ var NAVTREE =
     ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
-      [ "Globals", "globals.html", [
+      [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ]
       ] ]
     ] ]
@@ -45,7 +46,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_camera_movement_8cs.html"
+"_application_data_8cs.html",
+"player_health_8cs.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

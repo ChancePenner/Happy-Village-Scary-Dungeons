@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loadscene_144',['loadScene',['../class_transition.html#a26f924b424fe3ddc4b82dec66a5ba3ec',1,'Transition']]]
+  ['gameobjectstodestroy_288',['GameObjectsToDestroy',['../class_room_transition.html#a77c2b9223b4ff85501cac2eda25d1233',1,'RoomTransition']]]
 ];

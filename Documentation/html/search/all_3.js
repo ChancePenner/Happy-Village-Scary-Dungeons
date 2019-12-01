@@ -1,11 +1,12 @@
 var searchData=
 [
-  ['enemies_16',['enemies',['../classcheck_door.html#ab74d2d0bbb26ec6c52fe7dc7001af714',1,'checkDoor']]],
-  ['enemy_17',['Enemy',['../classopen_chest.html#a9761a658d50034f3a6c9ea8b02209200',1,'openChest']]],
-  ['enemy_5fhealth_18',['enemy_health',['../classenemy_health.html#acb9277127f93a794d58402e0fc156993',1,'enemyHealth']]],
-  ['enemyhealth_19',['enemyHealth',['../classenemy_health.html',1,'']]],
-  ['enemyhealth_2ecs_20',['enemyHealth.cs',['../enemy_health_8cs.html',1,'']]],
-  ['enemymovement_21',['EnemyMovement',['../class_enemy_movement.html',1,'']]],
-  ['enemymovement_2ecs_22',['EnemyMovement.cs',['../_enemy_movement_8cs.html',1,'']]],
-  ['enemyspawned_23',['enemySpawned',['../classcheck_door.html#a20e1b31bef772a93561e10a321b95a3a',1,'checkDoor']]]
+  ['deathanimation_23',['deathAnimation',['../classenemy_health.html#a92b4a5d024deb934319bb94a643d598b',1,'enemyHealth']]],
+  ['debug_24',['Debug',['../spike_damage_8cs.html#a828eaed3a7fec21688af492b377d63ed',1,'spikeDamage.cs']]],
+  ['destroyenemy_25',['DestroyEnemy',['../classenemy_health.html#a35f301be6ea4d3368f61f1ef4a3f3385',1,'enemyHealth']]],
+  ['destroyplayer_26',['destroyPlayer',['../classplayer_health.html#a4ad147855682e64aa2250d1b6c1fb525',1,'playerHealth']]],
+  ['disablecollision_27',['disableCollision',['../classspike_damage.html#a40a77f5217aa6088534e0c1fa33e989f',1,'spikeDamage']]],
+  ['door_28',['door',['../classcheck_door.html#aa03a339b99b711eb25dcbdbf51684720',1,'checkDoor.door()'],['../classenemy_button_press.html#a4bb62e8eb11697ff28fb502e9c763aaa',1,'enemyButtonPress.door()']]],
+  ['dooranim_29',['doorAnim',['../classenemy_button_press.html#a9a210d83deea1932f7ac0222e06fab85',1,'enemyButtonPress']]],
+  ['dropitem_30',['dropItem',['../classdrop_item.html',1,'']]],
+  ['dropitem_2ecs_31',['dropItem.cs',['../drop_item_8cs.html',1,'']]]
 ];

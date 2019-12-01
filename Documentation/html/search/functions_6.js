@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['movecharacter_119',['MoveCharacter',['../class_player_movement.html#a4fc0f3f74be677f11b9954c83d5fb4c8',1,'PlayerMovement']]],
-  ['moveinventory_120',['moveInventory',['../classsave_data.html#a5abe3b5296d1da00d071adfae6c9e42c',1,'saveData']]]
+  ['harmplayer_241',['harmPlayer',['../classplayer_health.html#ad2922b36a5f0c20f31bbccad5570644f',1,'playerHealth']]]
 ];

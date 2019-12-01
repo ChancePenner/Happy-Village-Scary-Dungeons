@@ -1,9 +1,22 @@
 var searchData=
 [
-  ['update_76',['Update',['../classcheck_door.html#a2c6030ac0305744aab27365d5a17a079',1,'checkDoor.Update()'],['../classenemy_health.html#a148b750ad007c294a1bce66bd702027c',1,'enemyHealth.Update()'],['../class_enemy_movement.html#adef7240bdf6f61abfe764487f963bd50',1,'EnemyMovement.Update()'],['../class_player_movement.html#aaf9b77d7177d538be9c1447d08191322',1,'PlayerMovement.Update()'],['../class_player_movement_v2.html#a3a131a1ea32a93b38e9d046bd8cd93aa',1,'PlayerMovementV2.Update()'],['../class_update_layer.html#af31cbe6299bcd7ade9e13073d4cbbd75',1,'UpdateLayer.Update()'],['../class_update_layer_tilemap.html#ae9e9455c9d956e94afbb119a3c99029d',1,'UpdateLayerTilemap.Update()']]],
-  ['updateanimationandmove_77',['UpdateAnimationAndMove',['../class_player_movement.html#a282159cbe80ef952262fe9b8ab4cac8f',1,'PlayerMovement']]],
-  ['updatelayer_78',['UpdateLayer',['../class_update_layer.html',1,'']]],
-  ['updatelayer_2ecs_79',['UpdateLayer.cs',['../_update_layer_8cs.html',1,'']]],
-  ['updatelayertilemap_80',['UpdateLayerTilemap',['../class_update_layer_tilemap.html',1,'']]],
-  ['updatelayertilemap_2ecs_81',['UpdateLayerTilemap.cs',['../_update_layer_tilemap_8cs.html',1,'']]]
+  ['savedata_126',['saveData',['../classsave_data.html',1,'']]],
+  ['savedata_2ecs_127',['saveData.cs',['../save_data_8cs.html',1,'']]],
+  ['sethealth_128',['setHealth',['../classplayer_health.html#a622a33c7cd9d75b0fe5d30e444082a3e',1,'playerHealth']]],
+  ['setindex_129',['SetIndex',['../class_camera_movement.html#a517c01964ada0ffb6dac8a0ab2845fce',1,'CameraMovement']]],
+  ['setnumofhearts_130',['setNumOfHearts',['../classplayer_health.html#a1963f6888c219ec371f86607a8456708',1,'playerHealth']]],
+  ['smoothingspeed_131',['smoothingSpeed',['../class_camera_movement.html#af2dc55ebec744d651170b00b6a3f5ce1',1,'CameraMovement']]],
+  ['spawnenemy_132',['spawnEnemy',['../classopen_chest.html#ad24e4e7f402bb0ec343544d5e2bfba60',1,'openChest']]],
+  ['speed_133',['speed',['../class_enemy_movement.html#a10af9877c4abb972cfecbc3e284e742d',1,'EnemyMovement.speed()'],['../class_player_movement.html#a6800716352b83358ea16bc706dd88cbb',1,'PlayerMovement.speed()']]],
+  ['spikedamage_134',['spikeDamage',['../classspike_damage.html',1,'']]],
+  ['spikedamage_2ecs_135',['spikeDamage.cs',['../spike_damage_8cs.html',1,'']]],
+  ['spikesallenemiesdead_136',['spikesAllEnemiesDead',['../classspikes_all_enemies_dead.html',1,'']]],
+  ['spikesallenemiesdead_2ecs_137',['spikesAllEnemiesDead.cs',['../spikes_all_enemies_dead_8cs.html',1,'']]],
+  ['spikestrength_138',['spikeStrength',['../classspike_damage.html#afddd47c4f84d45c2aecd3280f697d4cd',1,'spikeDamage']]],
+  ['spriteordersystem_139',['SpriteOrderSystem',['../class_sprite_order_system.html',1,'']]],
+  ['spriteordersystem_2ecs_140',['SpriteOrderSystem.cs',['../_sprite_order_system_8cs.html',1,'']]],
+  ['start_141',['Start',['../classbutton_press.html#aeca57657c0315563cb64368fb6ebf7dd',1,'buttonPress.Start()'],['../class_camera_movement.html#a3d5bf0407152d0e16efafa655bfc15e9',1,'CameraMovement.Start()'],['../classcheck_door.html#a8ec43ecb380385818ce813c80732f88f',1,'checkDoor.Start()'],['../classenemy_button_press.html#a8aa5666a66972ccd16ddd838e8c852ec',1,'enemyButtonPress.Start()'],['../classenemy_health.html#a1d2bb9351dcac9e88be07ee0981bf2d0',1,'enemyHealth.Start()'],['../class_enemy_movement.html#a2ab541315ed5a42294ed7adb32ce3376',1,'EnemyMovement.Start()'],['../classhouse_transition.html#a099d27d1c9d9d03045bd07fcc6e1ce16',1,'houseTransition.Start()'],['../classinitialize_health.html#a4863b9ecc4e69a554b9bb033cca823eb',1,'initializeHealth.Start()'],['../classinventory.html#aaf5c8c4f273fd32239d27eee354a57a5',1,'inventory.Start()'],['../classopen_chest.html#ab43d2be568345684514855fc700c83fc',1,'openChest.Start()'],['../classplayer_health.html#a0726e57ed5d05cab8af20f873fc5873d',1,'playerHealth.Start()'],['../class_player_movement.html#abf3660ca2b1a352b4a9da98437c61aa3',1,'PlayerMovement.Start()'],['../class_room_transition.html#a470517e17ebf63f76a4fcf3c4b9fc345',1,'RoomTransition.Start()'],['../classspikes_all_enemies_dead.html#a3fb0ce73f4ef180cce4e65dfa7a6ad3d',1,'spikesAllEnemiesDead.Start()'],['../classtest.html#ab1fdb10bceeb9d014a33ac82fedf5753',1,'test.Start()'],['../classtown_to_house_transition.html#ae5f890418d956d60b6d44753a1946ad1',1,'townToHouseTransition.Start()'],['../class_update_layer.html#a232fe3cc3648e6133a9a2677c3c6fbc7',1,'UpdateLayer.Start()'],['../class_update_layer_tilemap.html#ab1406b30c5250cebb6ea707423cea3d8',1,'UpdateLayerTilemap.Start()']]],
+  ['startgame_142',['startGame',['../classmain_menu.html#a8e9c90b9159ff4340bc1b83050826292',1,'mainMenu']]],
+  ['startposition_143',['startPosition',['../class_player_movement.html#a981720c4b54ebca5ee69768b2102ef97',1,'PlayerMovement']]],
+  ['stoppingdistance_144',['stoppingDistance',['../class_enemy_movement.html#a4c3ce1628a67e4ac37503aaaa8eab00d',1,'EnemyMovement']]]
 ];

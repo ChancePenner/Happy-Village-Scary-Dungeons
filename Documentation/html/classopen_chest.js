@@ -1,6 +1,7 @@
 var classopen_chest =
 [
     [ "chestIsOpen", "classopen_chest.html#a2975ff8424a1445516f9ec65416580ba", null ],
+    [ "giveSword", "classopen_chest.html#ad3268ad7aaa6fc7bcd48085fda6c9e50", null ],
     [ "OnTriggerStay2D", "classopen_chest.html#a1911428d01164091e28b0a563202d87b", null ],
     [ "spawnEnemy", "classopen_chest.html#ad24e4e7f402bb0ec343544d5e2bfba60", null ],
     [ "Start", "classopen_chest.html#ab43d2be568345684514855fc700c83fc", null ],
