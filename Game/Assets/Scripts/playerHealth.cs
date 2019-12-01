@@ -59,6 +59,8 @@ public class playerHealth : MonoBehaviour
 
     private void gameOver()
     {
+        GetComponent<Collider2D>().enabled = false;
+
         gameObject.GetComponent<PlayerMovement>().speed = 0;    //player cannot move once dead
         anim.SetBool("playerDead", true);           //set the animator playerDead to true to trigger death animation
         
@@ -68,6 +70,7 @@ public class playerHealth : MonoBehaviour
     {
         SceneManager.LoadScene(respawnLocation);
         setHealth(numOfHearts * 4);
+        GetComponent<Collider2D>().enabled = true;
     }
     
     void Update()            
