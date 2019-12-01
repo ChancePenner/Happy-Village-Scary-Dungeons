@@ -14,7 +14,13 @@ public class mainMenu : MonoBehaviour
 
   public void exitGame()
   {
-    Debug.Log("Exiting game");
+//    Debug.Log("Exiting game");
     Application.Quit();
+  }
+
+  public void Test()
+  {
+    SceneManager.LoadScene("TestScene");
+//    Debug.Log("Test Suite");
   }
 }

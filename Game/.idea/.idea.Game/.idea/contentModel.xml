@@ -119,6 +119,7 @@
           <e p="enemyButtonPress.cs" t="Include" />
           <e p="enemyHealth.cs" t="Include" />
           <e p="EnemyMovement.cs" t="Include" />
+          <e p="Exit.cs" t="Include" />
           <e p="GlobalControl.cs" t="Include" />
           <e p="houseTransition.cs" t="Include" />
           <e p="initializeHealth.cs" t="Include" />
