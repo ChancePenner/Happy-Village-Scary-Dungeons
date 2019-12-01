@@ -1,4 +1,16 @@
-﻿using System;
+﻿/**
+Happy Village, Scary Dungeons
+KU EECS 448 project 4
+TeamName: BigSegFaultEnergy
+  * \Author: Chance Penner
+  * \Author: Markus Becerra
+  * \Author: Sarah Scott
+  * \Author: Thomas Gardner
+  * \Author: Haonan Hu
+  * \File:	 townToHouseTransition.cs
+  * \Date:   12/01/2019
+*/
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,12 +28,24 @@ public class townToHouseTransition : MonoBehaviour
     //the player moves between rooms
     //since the player can't go back anyway
     
+    /*
+     * @ pre none
+     * @ param none
+     * @ post Start is called before the first frame update
+     * @ return none
+     */
     private void Start()
     {
         camera = Camera.main;
         index = 0;
     }
 
+    /*
+     * @ pre none
+     * @ param a 2d collider
+     * @ post teleport player to next room
+     * @ return none
+     */
     public void OnTriggerEnter2D(Collider2D other)
     {
 

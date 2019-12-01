@@ -1,5 +1,6 @@
 ﻿/**
-KU EECS 448 project 3
+Happy Village, Scary Dungeons
+KU EECS 448 project 4
 TeamName: BigSegFaultEnergy
   * \Author: Chance Penner
   * \Author: Markus Becerra
@@ -7,9 +8,8 @@ TeamName: BigSegFaultEnergy
   * \Author: Thomas Gardner
   * \Author: Haonan Hu
   * \File:	 enemyHealth.cs
-  * \Date:   11/3/2019
-  * \Brief:  This script makes enemy has certain amount of health and decrease each time player attack
- **/
+  * \Date:   12/01/2019
+*/
 
 using System;
 using System.Collections.Generic;
@@ -62,7 +62,6 @@ public class enemyHealth : MonoBehaviour
         if(other.CompareTag("swordHitbox") && enemy_health > 0.0)
         {
             enemy_health -= 1.0;
-           // Debug.Log(enemy_health);
 
             Vector2 difference = transform.position - other.transform.position;
             transform.position = new Vector2(transform.position.x + difference.x, transform.position.y + difference.y);
@@ -83,12 +82,17 @@ public class enemyHealth : MonoBehaviour
             other.transform.position = new Vector2(other.transform.position.x + difference.x, other.transform.position.y + difference.y);
         } 
     }
-
+    
+    /*
+     * @ pre none
+     * @ param a collider2D object
+     * @ post  player get correct damage when they are hit by mob
+     * @ return none
+     */
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Debug.Log("GETTING HIT");
             other.gameObject.GetComponent<playerHealth>().harmPlayer(enemyStrength);
         }
     }
@@ -103,7 +107,13 @@ public class enemyHealth : MonoBehaviour
     {
         Destroy(gameObject);
     }
-
+    
+    /*
+     * @ pre none
+     * @ param none
+     * @ post mod does not have attack power after playing death animation 
+     * @ return none
+     */
     private void deathAnimation()
     {
         enemyStrength = 0;

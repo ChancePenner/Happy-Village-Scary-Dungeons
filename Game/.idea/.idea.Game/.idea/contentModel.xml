@@ -91,14 +91,9 @@
             </e>
           </e>
         </e>
-        <e p="buttonSound.cs" t="Include" />
-        <e p="enableSpikes.cs" t="Include" />
-        <e p="fireDamage.cs" t="Include" />
-        <e p="firstLoad.cs" t="Include" />
         <e p="generic-rpg-pack_v0.3_(alpha-release)_vacaroxa" t="Include">
           <e p="release.txt" t="Include" />
         </e>
-        <e p="giveHealth.cs" t="Include" />
         <e p="kenney_rpgaudio" t="Include">
           <e p="License.txt" t="Include" />
         </e>
@@ -108,28 +103,32 @@
         <e p="MiniTileset-Dungeon" t="Include">
           <e p="Thank You!.txt" t="Include" />
         </e>
-        <e p="movingObjectSound.cs" t="Include" />
-        <e p="nextRoom.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="ApplicationData.cs" t="Include" />
           <e p="buttonPress.cs" t="Include" />
+          <e p="buttonSound.cs" t="Include" />
           <e p="CameraMovement.cs" t="Include" />
           <e p="checkDoor.cs" t="Include" />
           <e p="dropItem.cs" t="Include" />
+          <e p="enableSpikes.cs" t="Include" />
           <e p="enemyButtonPress.cs" t="Include" />
           <e p="enemyHealth.cs" t="Include" />
           <e p="EnemyMovement.cs" t="Include" />
           <e p="Exit.cs" t="Include" />
+          <e p="fireDamage.cs" t="Include" />
+          <e p="firstLoad.cs" t="Include" />
+          <e p="giveHealth.cs" t="Include" />
           <e p="GlobalControl.cs" t="Include" />
           <e p="houseTransition.cs" t="Include" />
           <e p="initializeHealth.cs" t="Include" />
           <e p="inventory.cs" t="Include" />
           <e p="mainMenu.cs" t="Include" />
+          <e p="movingObjectSound.cs" t="Include" />
+          <e p="nextRoom.cs" t="Include" />
           <e p="objectVector.cs" t="Include" />
           <e p="openChest.cs" t="Include" />
           <e p="playerHealth.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
-          <e p="PlayerMovementV2.cs" t="Include" />
           <e p="portal.cs" t="Include" />
           <e p="RoomTransition.cs" t="Include" />
           <e p="saveData.cs" t="Include" />
@@ -228,6 +227,6 @@
       <e p="Unity.2D.Tilemap.Extras.Editor.csproj" t="IncludeRecursive" />
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_Game.1935445898.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_Game.-186961127.00" t="ExcludeRecursive" />
   </component>
 </project>
