@@ -72,6 +72,7 @@
      <Compile Include="Assets\Scripts\enemyHealth.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\GlobalControl.cs" />
+     <Compile Include="Assets\Scripts\houseTransition.cs" />
      <Compile Include="Assets\Scripts\initializeHealth.cs" />
      <Compile Include="Assets\Scripts\inventory.cs" />
      <Compile Include="Assets\Scripts\mainMenu.cs" />
@@ -86,6 +87,7 @@
      <Compile Include="Assets\Scripts\spikeDamage.cs" />
      <Compile Include="Assets\Scripts\spikesAllEnemiesDead.cs" />
      <Compile Include="Assets\Scripts\SpriteOrderSystem.cs" />
+     <Compile Include="Assets\Scripts\townToHouseTransition.cs" />
      <Compile Include="Assets\Scripts\Transition.cs" />
      <Compile Include="Assets\Scripts\UpdateLayer.cs" />
      <Compile Include="Assets\Scripts\UpdateLayerTilemap.cs" />
