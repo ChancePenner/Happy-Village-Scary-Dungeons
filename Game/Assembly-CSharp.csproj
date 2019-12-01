@@ -87,6 +87,7 @@
      <Compile Include="Assets\Scripts\spikeDamage.cs" />
      <Compile Include="Assets\Scripts\spikesAllEnemiesDead.cs" />
      <Compile Include="Assets\Scripts\SpriteOrderSystem.cs" />
+     <Compile Include="Assets\Scripts\test.cs" />
      <Compile Include="Assets\Scripts\townToHouseTransition.cs" />
      <Compile Include="Assets\Scripts\Transition.cs" />
      <Compile Include="Assets\Scripts\UpdateLayer.cs" />
