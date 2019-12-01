@@ -3,6 +3,22 @@ sceneSetups:
   isLoaded: 1
   isActive: 1
   isSubScene: 0
+- path: Assets/Town.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/toBeContinued.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/TestScene.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/mainDungeon.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
 - path: Assets/Dungeon1.unity
   isLoaded: 0
   isActive: 0
@@ -13,21 +29,5 @@ sceneSetups:
   isSubScene: 0
 - path: Assets/Dungeon3.unity
   isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Town.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/mainDungeon.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/toBeContinued.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/TestScene.unity
-  isLoaded: 1
   isActive: 0
   isSubScene: 0
