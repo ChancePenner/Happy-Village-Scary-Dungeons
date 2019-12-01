@@ -83,7 +83,7 @@ PlayerSettings:
   bakeCollisionMeshes: 0
   forceSingleInstance: 0
   useFlipModelSwapchain: 0
-  resizableWindow: 1
+  resizableWindow: 0
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
   gpuSkinning: 0
@@ -119,7 +119,7 @@ PlayerSettings:
   m_SupportedAspectRatios:
     4:3: 1
     5:4: 0
-    16:10: 1
+    16:10: 0
     16:9: 1
     Others: 0
   bundleVersion: 0.1
