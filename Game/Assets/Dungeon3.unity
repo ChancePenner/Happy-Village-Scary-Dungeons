@@ -4549,7 +4549,7 @@ PrefabInstance:
     - target: {fileID: 747791722945563621, guid: b87bff3f6e95242eebbb908c43e817c6,
         type: 3}
       propertyPath: m_Name
-      value: Transition
+      value: bossTransition
       objectReference: {fileID: 0}
     - target: {fileID: 4514829454149730964, guid: b87bff3f6e95242eebbb908c43e817c6,
         type: 3}
@@ -4615,17 +4615,17 @@ PrefabInstance:
     - target: {fileID: 8681903281996770773, guid: b87bff3f6e95242eebbb908c43e817c6,
         type: 3}
       propertyPath: playerLocation.x
-      value: 445.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8681903281996770773, guid: b87bff3f6e95242eebbb908c43e817c6,
         type: 3}
       propertyPath: playerLocation.y
-      value: 511
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8681903281996770773, guid: b87bff3f6e95242eebbb908c43e817c6,
         type: 3}
       propertyPath: loadScene
-      value: Town
+      value: toBeContinued
       objectReference: {fileID: 0}
     - target: {fileID: 8681903281996770773, guid: b87bff3f6e95242eebbb908c43e817c6,
         type: 3}

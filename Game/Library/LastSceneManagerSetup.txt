@@ -1,7 +1,7 @@
 sceneSetups:
 - path: Assets/menu.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0
 - path: Assets/Dungeon1.unity
   isLoaded: 0
@@ -20,6 +20,10 @@ sceneSetups:
   isActive: 0
   isSubScene: 0
 - path: Assets/mainDungeon.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+- path: Assets/toBeContinued.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
