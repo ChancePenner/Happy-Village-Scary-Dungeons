@@ -247,6 +247,16 @@ PrefabInstance:
       propertyPath: hearts.Array.data[9]
       value: 
       objectReference: {fileID: 1680808826}
+    - target: {fileID: 9115039012329295773, guid: 0acda5bf87ca148bb89a7355dc00c09b,
+        type: 3}
+      propertyPath: loadScene
+      value: Town
+      objectReference: {fileID: 0}
+    - target: {fileID: 9115039012329295773, guid: 0acda5bf87ca148bb89a7355dc00c09b,
+        type: 3}
+      propertyPath: respawnLocation
+      value: Town
+      objectReference: {fileID: 0}
     - target: {fileID: 3625484671687448101, guid: 0acda5bf87ca148bb89a7355dc00c09b,
         type: 3}
       propertyPath: m_SortingLayerID
