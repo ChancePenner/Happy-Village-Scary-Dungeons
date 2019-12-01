@@ -1,7 +1,14 @@
 Bug tracker
 
-Kept sword after finishing tutorial dungeon???
-Have sword as soon as entering tutorial dungeon
-HEARTS NOT SAVING AFTER TUTORIAL DUNGEON
-NEED CHANCE TO REMOVE CHEST FROM DUNGEON 3
-WILL NEED TO ADD TRANSITION BACK TO TOWN/END GAME AFTER FINAL BOSS
+-Knockback can hit player through collision
+-Knockback can hit enemy through collision
+-mainDungeon room5 spike animation is jittery
+-Tutorial dungeon room spawns are in odd locations. Should spawn player in front of door
+-Tutorial dungeon music does not continue between rooms. It replays when transitioning to different rooms.
+-Player can go back into tutorial area, and it is the same as the first time player entered, instead of keeping the state of the chest being opened and boss being dead.
+-Sword animation can go through collisions. Does not affect much, but looks weird
+-Scene transitions keep showing old location for a split second
+-mainDungeon room5 spikes' collision disappears as soon as enemies are dead, instead of when the spikeDown animation finishes
+-house paintings are on wrong layer. Player head appears behind them.
+-on-screen health canvas only seeable on certain screen resolutions
+-cannot exit fullscreen mode
