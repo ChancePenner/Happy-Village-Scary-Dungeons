@@ -633,10 +633,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 0362c9fd-1657-4ae0-a5a6-f94257b72753
+  cloudProjectId: 0cd73d4d-b2f0-4f02-8626-5dd5ce1303a3
   framebufferDepthMemorylessMode: 0
-  projectName: HappyVillage, Scary Dungeon
-  organizationId: hjgyhhn6328
+  projectName: HappyVillage, Scary Dungeons
+  organizationId: chancepenner
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
